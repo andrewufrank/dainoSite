@@ -16,3 +16,5 @@ The source of the web site should be stored in open file formats, which can be e
 
 The principle speaks against use of databases to store content (so called Content Management Systems) which are probably justified for large, very high traffic sites. 
 
+`Daino` organized the source for a web site in text files written in Markdown; they can be edited with any simple text editor^[Using a *intelligent* editor like Word is inconvenient; VS code however works well].
+

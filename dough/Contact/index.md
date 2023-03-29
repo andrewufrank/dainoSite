@@ -8,7 +8,12 @@ language: en_US
 version: publish
 visibility: public
 ---
-## Address  
+
+The code for `daino` and the example site are found on my github account github	git@github.com:andrewufrank/ as `daino` and `dainoSite`. Bug trackers for both sites are set up. 
+
+For questions can be emailed to `daino@gerastree.at`. 
+
+## Example Address  
 
 Research Group xx  
 break lines with two blanks (space) at end of line   

@@ -16,10 +16,10 @@ visibility: public
 
 A change in the presentation style should not affect the content; for example, it was possible to move from fixed-width presentation to a presentation which adapts to different screen sized and later to use a Tufte-inspired style without touching the web page content. 
 
-Markdown allows to structure the content with abstract hints for the presentation (e.g. title, footnote) but not fixing how these are rendered. 
+Markdown allows to structure the content with  hints for the presentation (e.g. title, footnote) but not fixing how these are rendered. 
 
 ## Theme directory
-The instructions for presentation, the so called `theme` is in a separate directory (here `daino/docs/site/theme). It is linked automatically into the baked site. 
+The instructions for presentation, the so called `theme` is in a separate directory (here `dainoSite/theme). It is linked automatically into the baked site. 
 
 The theme consists of 
 
@@ -27,4 +27,4 @@ The theme consists of
 - images
 - cascading style sheets (CSS) in `static` folder. 
 
-The elements are brought together with the content using the [Pandoc templates](https://hackage.haskell.org/package/pandoc-3.1.1/docs/Text-Pandoc-Templates.html).
+The elements are brought together with the content using the [Pandoc templates](https://hackage.haskell.org/package/pandoc-3.1.1/docs/Text-Pandoc-Templates.html) and a template to construct a `LaTeX` input file to produce the PDF.

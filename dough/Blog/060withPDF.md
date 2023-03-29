@@ -1,5 +1,5 @@
 ---
-title: 07withPDF title post including a pdf file
+title: "06 withPDF: post including a pdf file"
 abstract: This example shows how to include a pdf file in a blog as a reference.  
     The pdf file is opened in a separate window!
 author: AOS

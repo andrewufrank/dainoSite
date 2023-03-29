@@ -1,6 +1,6 @@
 ---
-title:   06withImage  
-abstract: 06withImage   
+title:   051withImage  
+abstract: > 
     How to include an image in a blog; 
     references can be absolute or relative
 author: AOS
@@ -19,7 +19,7 @@ An arbitrary image can be inserted in the banner page, as an absolute (possibly 
 
 The image is in /home/frank/Workspace11/daino/docs/site/dough/Blog/resources/120-2026_IMG.JPG of which `/Blog/resources/120-2026_IMG.JPG` is the part **relative to the `web root`**^[The web root is the directory `dough`]. 
 
-Attention: the file extension is case sensitiv; i.e. "JPG" and "jpg" are different!
+Attention: the file extension is case sensitiv; i.e. `JPG` and `jpg` are considered different!
 
 # Absolute reference
 

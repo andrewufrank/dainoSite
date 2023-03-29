@@ -1,7 +1,7 @@
 ---
-title: "04witRefInBlog title: page witgh reference given locally"
+title: "011 with reference locally set"
 abstract: |
-    02with04witRefInBlogRef This blog uses a reference given locally.  
+     This blog uses a reference given locally.  
  
 author: AOS
 bibliography: resources/BibTexLatex.bib
@@ -24,6 +24,8 @@ references:
   volume: 11
 style: resources/chicago-fullnote-bibliography-bb.csl
 styleBiber: numeric
+reference-section-title: References
+
 version: publish
 visibility: public
 headerShift: zero

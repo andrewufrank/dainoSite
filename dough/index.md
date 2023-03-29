@@ -25,15 +25,17 @@ A static site generator designed by an academic to allow:
 
 ## Software reuse:
 Daino uses  `pandoc` and other packages on `Hackage` (e.g. shake, twitch, scotty)^[It was influenced by Chris Penner's [slick](https://github.com/ChrisPenner/slick#readme), newer, and seemingly simpler is [`Ema`](`https://github.com/srid/ema`) by  Sridhar Ratnakumar, but the documentation did not detail its features neither how it is built.].
-Relies on `git` for version management.
+Relies on `git` for version management and runs on PC(AMD) or Raspberry Pi 4 (ARM64) hardware.
 
 ## Example site
-The code includes an example site in the `docs/site` directory^[If cloned from github; installations from hackage do not include large data directories]. [Watch it!](daino.gerastree.at). 
+Thn example site [shown here](daino.gerastree.at) can be donloaded or clones   from [github](git clone git@github.com:andrewufrank/dainoSite). 
 
-If `daino` is installed from `git clone git@github.com:andrewufrank/daino.git` and installed with `cabal install` or `stack install`^[Compilation and linking brings in a large number of packages, e.g. pandoc, and may take long; on a typically AMD computer 30..60 Minutes, on a ARM64 (e.g. RaspberryPi4) twice as long for the initial installation.] the test site is included in the `site/docs/dough` directory and can be run locally with `daino -qTs`, edited and rendered in a browser as `localhost:3000`.
+If `daino` can be installed from hackage or downloaded or cloned  from `git clone git@github.com:andrewufrank/daino.git` and installed with `cabal install` or `stack install`^[Initial compilation and linking brings in a large number of packages, e.g. pandoc, and may take a while; on a typically AMD computer 30..60 Minutes, on a ARM64 (e.g. RaspberryPi4) twice as long for the initial installation.].
+
+To run the test site, start daino in it `dough` directory  `daino -qs`  and rendered in a browser as `localhost:3000`. The web pages written in markdown can be edited and the server restarted to update the site.
 
 ## Running your own site
-Copying the folder `site/docs/douch` to a suitable directory and edit the `settinsNN.yaml` file found there is enough to start your own site with running `daini -qs` in this directory.  
+Copying the folder `douch` to a suitable directory and edit the `settinsNN.yaml` file found there is enough to start your own site with running `daini -qs` in this directory.  
 
 # More information: 
 

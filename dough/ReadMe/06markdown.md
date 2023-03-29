@@ -14,7 +14,25 @@ visibility: public
 
 Markdown is an easy to learn and versatile. The list possible formatting is quite comprehensive:
     
-    Markdown may not be the right format for you if you find these elements not enough for your writing: paragraphs, (section) headers, block quotations, code blocks, (numbered and unnumbered) lists, horizontal rules, tables, inline formatting (emphasis, strikeout, superscripts, subscripts, verbatim, and small caps text), LaTeX math expressions, equations, links, images, footnotes, citations, theorems, proofs, and examples. [Bookdown](https://bookdown.org/yihui/rmarkdown/#preface).
+"Markdown may not be the right format for you if you find these elements not enough for your writing: 
+
+- paragraphs, 
+- (section) headers, 
+- block quotations, 
+- code blocks, 
+- (numbered and unnumbered) lists, 
+- horizontal rules, 
+- tables, 
+- inline formatting (emphasis, strikeout, superscripts, subscripts, verbatim, and small caps text), 
+- LaTeX math expressions, 
+- equations, 
+- links, 
+- images, 
+- footnotes, 
+- citations, 
+- theorems, 
+- proofs, and 
+- examples."^[[Bookdown](https://bookdown.org/yihui/rmarkdown/#preface).]
 
 and in exceptional circumstances additional formatting tricks can be pulled in as HTML code. 
 
