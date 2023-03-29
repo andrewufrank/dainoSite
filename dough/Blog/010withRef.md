@@ -4,15 +4,15 @@ abstract: |
     Example with references from the standard bibliography.  
 
 
-author: AOS
-bibliography: resources/BibTexLatex.bib
+# author: AOS
+# bibliography: resources/BibTexLatex.bib
 nocite: |
   @navratil08
 date: 2010-07-29
-keywords: homepage
-style: resources/chicago-fullnote-bibliography-bb.csl
-styleBiber: numeric
-reference-section-title: Reference
+# keywords: homepage
+# style: resources/chicago-fullnote-bibliography-bb.csl
+# styleBiber: numeric
+# reference-section-title: Reference
 
 version: publish
 visibility: public

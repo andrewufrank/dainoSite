@@ -1,10 +1,10 @@
 ---
-title:   05withImage  
+title:   050withImage  
 abstract: Image referenced absolute or relative
-author: AOS
+# author: AOS
 caption: Tal bei Obertauern
 date: Jan. 4, 2019
-image:  "" 
+# image:  "" 
 # Blog/resources/120-2026_IMG.JPG
 # should be absolute ref (with / starting)
 # shown in browser
@@ -14,7 +14,6 @@ version: publish
 visibility: public
 ---
 
-an edit 
  
 The 1st image ![example absolute reference - error in PDF, shown in HTML](/Blog/resources/1IMG.JPG)  is referenced absolutely with `/Blog/resources/1IMG.JPG`, and produces for `makePDF` an error  but the same ref is shown in HTML (understood as absolute reference relative to web root )  
 

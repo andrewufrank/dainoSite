@@ -3,11 +3,11 @@ title:   051withImage
 abstract: > 
     How to include an image in a blog; 
     references can be absolute or relative
-author: AOS
+author: Bill Tames
 caption: Tal bei Obertauern
 date: Jan. 4, 2019
 image: /Blog/resources/120-2026_IMG.JPG
-keywords: test
+# keywords: test
 version: publish
 visibility: public
 ---

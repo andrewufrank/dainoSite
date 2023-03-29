@@ -5,10 +5,10 @@ abstract: |
     Note: 
     - a title with "colon" requires quotes and 
     - how to format a list in abstract. 
-author: AOS
+# author: AOS
 date: 2020-06-18
-keywords: Blog
-language: en_US
+# keywords: Blog
+# language: en_US
 # todo how are the languages parsed. can there be a default
 # publish: true
 version: publish

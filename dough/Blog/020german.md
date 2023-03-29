@@ -7,15 +7,15 @@ abstract:  |
     und weiteren  Zeilen im abstract.
     
 
-author: AOS
+author: Peter Deutscher
 date: 2020-06-18
-keywords: Blog
+# keywords: Blog
 language: de_CH
-publish: true
+# publish: true
 version: publish
 visibility: public
-headerShift: one
-bibliography: resources/BibTexLatex.bib
+# headerShift: one
+# bibliography: resources/BibTexLatex.bib
 reference-section-title: Literatur
 ---
 
