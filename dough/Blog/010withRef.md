@@ -15,7 +15,7 @@ date: 2010-07-29
 reference-section-title: Reference
 
 version: publish
-visibility: public
+# # visibility: public
 # headerShift: zero
 ---
 

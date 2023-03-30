@@ -13,7 +13,7 @@ date: 2020-06-18
 language: de_CH
 # publish: true
 version: publish
-visibility: public
+# visibility: public
 # headerShift: one
 # bibliography: resources/BibTexLatex.bib
 reference-section-title: Literatur

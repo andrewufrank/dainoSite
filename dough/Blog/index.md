@@ -15,7 +15,7 @@ indexPage: true
 indexSort: filename
 keywords: test
 version: publish
-visibility: public
+# visibility: public
 ---
 
 # The Blog directory gives example for web page design

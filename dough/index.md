@@ -6,7 +6,7 @@ date: 2010-01-29
 keywords: homepage
 # page-title: ExampleHomepage
 version: publish
-visibility: public
+# visibility: public
 ---
 
 #  Daino: A Static Site Generator 

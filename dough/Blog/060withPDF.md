@@ -6,7 +6,7 @@ author: AOS
 date: Jan. 4, 2019
 keywords: test
 version: publish
-visibility: public
+# visibility: public
 ---
 
 # In this example a reference to a pdf file is included 

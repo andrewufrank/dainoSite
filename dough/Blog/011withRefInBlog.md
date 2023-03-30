@@ -27,7 +27,7 @@ references:
 reference-section-title: References
 
 version: publish
-visibility: public
+# # visibility: public
 # headerShift: zero
 ---
 

@@ -6,7 +6,7 @@ date: 2010-01-29
 keywords: homepage
 # page-title: ExampleHomepage
 version: publish
-visibility: public
+# # visibility: public
 ---
 This is the `index page` at the root of the site. This page is opened by a browser by default for the URL of the site; it is often called `landing page`. 
 

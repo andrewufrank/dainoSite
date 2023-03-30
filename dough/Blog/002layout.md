@@ -12,7 +12,7 @@ date: 2020-06-18
 # todo how are the languages parsed. can there be a default
 # publish: true
 version: publish
-visibility: public
+# visibility: public
 # headerShift: one
 ---
 
