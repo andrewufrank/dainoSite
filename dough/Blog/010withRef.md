@@ -5,7 +5,7 @@ abstract: |
 
 
 # author: AOS
-# bibliography: resources/BibTexLatex.bib
+bibliography: resources/BibTexLatex.bib
 nocite: |
   @navratil08
 date: 2010-07-29

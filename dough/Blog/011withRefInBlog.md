@@ -4,7 +4,7 @@ abstract: |
      This blog uses a reference given locally.  
  
 # author: AOS
-# bibliography: resources/BibTexLatex.bib
+bibliography: resources/BibTexLatex.bib
 date: 2010-07-29
 keywords: homepage
 

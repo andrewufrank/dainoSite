@@ -16,7 +16,10 @@ siteLayout:
     # todo seems not to work. but entry here is required
     blogAuthorToSuppress: 
       - "AOS"
-      - "Author of Settings"     
+      - "Author of Settings"   
+    defaultAuthor: "AOS"
+    # defaultBibliography: "resources/BibTexLatex.bib"
+    # todo the bibliography is not defaulted because the value must be read by pandoc
     # create dir in ExampleTesting
     # filename must be homedir + program name (in Foundation) - hidden
     # fixed in testharness
