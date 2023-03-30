@@ -24,7 +24,7 @@ references:
   volume: 11
 # style: resources/chicago-fullnote-bibliography-bb.csl
 # styleBiber: numeric
-# reference-section-title: References
+reference-section-title: References
 
 version: publish
 visibility: public

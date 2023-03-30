@@ -12,7 +12,7 @@ date: 2010-07-29
 # keywords: homepage
 # style: resources/chicago-fullnote-bibliography-bb.csl
 # styleBiber: numeric
-# reference-section-title: Reference
+reference-section-title: Reference
 
 version: publish
 visibility: public
@@ -21,7 +21,7 @@ visibility: public
 
 # References from standard biblio
 
-References from a bib text file which is stored in `resources/BibTexLatex.bib`, listed under `bibliography`. 
+References from a bib text file which is stored in `resources/BibTexLatex.bib`, listed under `bibliography`, but not included as default value. It MUST be listed in each `md` file which uses references^[Include also the `reference-section-title which fits to the language of the text!]
 
 <!-- todo why no slash at start? -->
 
