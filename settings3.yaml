@@ -2,9 +2,9 @@
 # change to start a new site
 
 siteLayout:
-    themeDir:  /home/frank/Workspace11/dainoSite/theme
+    themeDir:  /home/frank/Workspace11/dainoTheme
     # used to place a link to theme in dough/resources
-    doughDir: /home/frank/Workspace11/dainoSite/dough
+    doughDir: /home/frank/Workspace11/dainoSite 
     bakedDir: /home/frank/bakedTestSite
     # bakedDir: /home/frank/Workspace11/daino/docs/site/baked
     reportFile: /home/frank/dainoReport.txt
