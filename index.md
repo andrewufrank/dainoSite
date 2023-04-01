@@ -1,8 +1,7 @@
 ---
 title: "Static Site Generator Daino: Landing page" 
 abstract: The `Example Homepage` 
-
-# produced by `daino` list differences to other SSG and gives rationale for its design. It points to the source and how to use it to run your own web site.
+    produced by `daino` list differences to other SSG and gives rationale for its design. It points to the source and how to use it to run your own web site.
 author: Author of Settings
 date: 2010-01-29
 keywords: homepage
@@ -15,7 +14,7 @@ version: publish
 <!-- copy of the ReadMe.md file shown in github -->
 
 A static site generator designed by an academic to allow: 
-<!-- 
+
 - web pages written as (Pandoc) markdown (with YAML header for title and `bibtex` references, etc.),
 - page layout inspired by Tufte and using `w3c` framework to adapt to different screen sizes,
 - publication list for download produced from `bibtex` database,
@@ -41,4 +40,4 @@ Copying the folder `douch` to a suitable directory and edit the `settinsNN.yaml`
 
 # More information: 
 
-The following pages explain the rationale for "yet another static site generator" and show with examples how it can be used.  -->
+The following pages explain the rationale for "yet another static site generator" and show with examples how it can be used. 

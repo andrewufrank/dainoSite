@@ -1,12 +1,26 @@
 ---
-title: 05title missing
-abstract: 05abstract missing
+title: Pandoc converts from markdown to HTML
+abstract: The sources of the web pages are (primarily) written as markdown and converted by Pandoc to HTML. 
+author: AOS
+date: 2020-06-18
+keywords: SSG
+language: en_US
+# todo how are the languages parsed. can there be a default
+# publish: true
 version: publish
-date: 2023-03-31
+visibility: public
+# headerShift: one todo 
 ---
+
  
-## 05-hl2 title for 05 Source 
+## Source files are converted to HTML using Pandoc
 
-05-text: The web page sources. 
-  
+The web page sources are translated using Pandoc to HTML and PDF. 
 
+Pandoc is equally used to convert the markdown sources to latex and then to PDF. 
+
+Pandoc would allow three dozens of [input formats](https://pandoc.org/MANUAL.html). At the moment, page sources must be written in the Pandoc markdown language, but essentially any other input Pandoc can read could be used (e.g. `latex`).
+
+## `Shake` controls the conversion
+
+Shake is an improved `make` producing a desired set of files from sources and rules. It is driven by the correspondence between the `md` files which must be converted to `html` and draws in additional files as necessary. It converts files only if changed; files can be watched for changes and automatically converted.
