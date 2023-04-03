@@ -1,6 +1,6 @@
 ---
 title:  04german
-abstract: "03abstract: In german." 
+abstract: "04abstract: In german." 
 bibliography: resources/BibTexLatex.bib
 language: de_CH
 # reference-section-title: Reference

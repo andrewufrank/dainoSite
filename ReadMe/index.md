@@ -1,6 +1,6 @@
 ---
 title: Daino 
-abstract: "This ReadMe lists the principles which guided the design of `daino`" 
+abstract: "This `ReadMe` lists the principles which guided the design of `daino`" 
 author: AOS
 date: Jan. 4, 2019
 indexPage: true
@@ -13,7 +13,7 @@ bibliography: "resources/BibTexLatex.bib"
 book: "book"
 ---
 
-Design of `daino` was guided by some principles which are explained here: 
+Design of `daino` was guided by some principles which are explained in this `ReadMe`. 
 
 <!-- The index pages list automatically all the directories and the markdown files (`md` extension) in the directory.
 

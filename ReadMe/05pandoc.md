@@ -16,11 +16,10 @@ visibility: public
 ## Source files are converted to HTML using Pandoc
 
 The web page sources are translated using Pandoc to HTML and PDF. 
-
 Pandoc is equally used to convert the markdown sources to latex and then to PDF. 
 
 Pandoc would allow three dozens of [input formats](https://pandoc.org/MANUAL.html). At the moment, page sources must be written in the Pandoc markdown language, but essentially any other input Pandoc can read could be used (e.g. `latex`).
 
-## `Shake` controls the conversion
+# `Shake` controls the conversion
 
-Shake is an improved `make` producing a desired set of files from sources and rules. It is driven by the correspondence between the `md` files which must be converted to `html` and draws in additional files as necessary. It converts files only if changed; files can be watched for changes and automatically converted.
+Shake is an improved `make` producing a desired set of files from sources and rules. It is driven by the correspondence between the `md` files which must be converted to `HTML` and draws in additional files as necessary. It converts files only if changed; files can be watched for changes and automatically converted.

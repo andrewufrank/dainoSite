@@ -34,12 +34,12 @@ Markdown is an easy to learn and versatile. The list possible formatting is quit
 - proofs, and 
 - examples."^[[Bookdown](https://bookdown.org/yihui/rmarkdown/#preface).]
 
-and in exceptional circumstances additional formatting tricks can be pulled in as HTML code. 
+In exceptional circumstances additional formatting tricks can be pulled in as HTML code. 
 
-## YAML header
-Markdown allows headers to pass metadata about a file (e.g. title, author) in a [YAML](https://yaml.org/spec/1.2.2/); the format is flexible^[But beware of colons, quotes etc.]. 
+# YAML header
+Markdown allows headers to pass metadata about a file (e.g. title, author) in a [YAML](https://yaml.org/spec/1.2.2/) to processes working on the source text; the format is flexible^[But beware of colons, quotes etc.!]. 
 
-## Markdown can include images, reference etc.
+# Markdown can include images, reference etc.
 
 Markdown allow the inclusion of images, bibliographic references etc. These additional files are stored in `resources` directories^[`resources` is a reserved word; all other directory names are treated as content directories]. 
 

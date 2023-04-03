@@ -18,7 +18,7 @@ A static site generator designed by an academic to allow:
 - web pages written as (Pandoc) markdown (with YAML header for title and `bibtex` references, etc.),
 - page layout inspired by Tufte and using `w3c` framework to adapt to different screen sizes,
 - publication list for download produced from `bibtex` database,
-- offer printable `pdf` files for all content,
+- offer printable `pdf` files for all content; for some directories compilation from multiple pages on a single *booklet* page,
 - web site using multiple languages,
 - content and appearances (theme) separated,
 - a single `yaml` file for setup, and 

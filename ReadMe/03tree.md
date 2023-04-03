@@ -15,7 +15,7 @@ visibility: public
 # headerShift: one todo 
 ---
 
-# Principle: The structure of the site and the structure of its stored representation should correspond
+# Principle: The structure of the site and the structure of it is stored representation should correspond
 
 A web site is presented as pages of hyper-text with links between the pages[@berners2001semantic]. This logical structure is represented as files   and the whole site is collected under a root directory. 
 
@@ -25,7 +25,7 @@ The mapping between rendered web pages and the files representing them is crucia
 
 <!-- The site generator process converts each markdown file (`md` file) to a HTML file a browser can render.  -->
 
-Each web page in a site is written as a markdown file, which the generator transforms to a html file which can be rendered. The structure of the source (`dough`) of the web page is parallel to the directory structure of the `baked` homepage, which can be served by a web server and rendered by a browser.
+Each web page in a site is written as a markdown file, which the generator transforms to a HTML file which can be rendered. The structure of the source (`dough`) of the web page is parallel to the directory structure of the `baked` homepage, which can be served by a web server and rendered by a browser.
 
 A markdown page can call for **additional material** and link to other renderable pages not produced from a markdown page.
 
@@ -34,7 +34,7 @@ A markdown page can call for **additional material** and link to other renderabl
 The web site starts with a single page^[Often called `landing page`.] from which all other pages can reached in a tree structure. 
 
 
-The web pages are stored as files in  directories. The directory tree starts with the root (here `dainoSite/dough`) which contains all the source text for the web pages^[It contains an additional file `settingsNN.yaml` for the site].
+The web pages are stored as files in  directories. The directory tree starts with the root (here `dainoSite/dough`) which contains all the source text for the web pages^[It contains an additional file `settingsNN.yaml`, currently `settings3.yaml` for the site.].
 
 Directories store only files and additional information for the presentation of the directory as web page is necessary. For each directory an `index.md` file is added which comments on the directories content and the list of directories is rendered.
 
@@ -42,5 +42,5 @@ Additional content can be stored in `resources` directories^[Which must be calle
 
 ## Correspondence between presentation and storage 
 
-The  source for web pages, and the web pages in `HTML` formate are stored in a parallel directory structure and correspond to the structure of the web site visible to the user are parallel. 
+The  source for web pages, and the web pages in `HTML` formate are stored in a parallel directory structure and correspond to the structure of the web site visible to the user. 
 
