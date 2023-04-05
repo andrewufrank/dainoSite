@@ -19,7 +19,7 @@ A static site generator designed by an academic to allow:
 - page layout inspired by Tufte and using `w3c` framework to adapt to different screen sizes,
 - publication list for download produced from `bibtex` database,
 - offer printable `pdf` files for all content; for some directories compilation from multiple pages on a single *booklet* page,
-- web site using multiple languages,
+- web site using multiple languages, with support for common shortcuts for typing (e.g. ae is changed to ä when acceptable)
 - content and appearances (theme) separated,
 - a single `yaml` file for setup, and 
 - a self-contained result which can be hosted on any web server.
