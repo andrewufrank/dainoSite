@@ -19,6 +19,8 @@ siteLayout:
       - "AOS"
       - "Author of Settings"   
     defaultAuthor: "AOS"
+    replaceErlaubtFile: "/home/frank/Workspace11/replaceUmlaut/nichtUmlaute.txt"
+    # the file with permitte words not to replace
     # defaultBibliography: "resources/BibTexLatex.bib"
     # todo the bibliography is not defaulted because the value must be read by pandoc
 
