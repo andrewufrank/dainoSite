@@ -8,9 +8,9 @@ abstract: |
 
     The directory for experiments.
 
-author: AOS
+# author: AOS
 date: Jan. 4, 2019
-indexPage: true
+# indexPage: true
 # todo is index page true necessary?
 indexSort: filename
 bibliography: "resources/BibTexLatex.bib"

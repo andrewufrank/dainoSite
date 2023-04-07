@@ -15,7 +15,7 @@ version: publish
 # visibility: public
 # headerShift: one
 bibliography: resources/BibTexLatex.bib
-reference-section-title: Literatur
+# reference-section-title: Literatur
 doNotReplace: blue true koeffizient einbauen "ae" "oe" "ue"
 ---
 

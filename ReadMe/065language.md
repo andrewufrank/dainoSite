@@ -10,7 +10,7 @@ language: en_US
 version: publish
 # visibility: public
 # headerShift: one todo 
-doNotReplace: "ae" "oe" "ue" 
+# doNotReplace: "ae" "oe" "ue" 
 ---
 
 Various conventions to type text in non-english languages exist. For example, it is customary to type combinations of American keyboard characters to stand in for those which are not found on the standard American keyboard.
