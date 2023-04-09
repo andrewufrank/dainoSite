@@ -25,7 +25,7 @@ A static site generator designed by an academic to allow:
 - a self-contained result which can be hosted on any web server.
 
 The program runs on Debian Linux^[Could run on Ubuntu or likely Windows(probably some adaptations needed).] locally on PC or Raspery Pi 4. 
-
+Restricted accsss on some directories^[My provider uses `cpanel` and allows password protection to any directory.].
 ## Software reuse:
 Daino uses  `pandoc` and other packages on `Hackage` (e.g. shake, twitch, scotty)^[It was influenced by Chris Penner's [slick](https://github.com/ChrisPenner/slick#readme), newer, and seemingly simpler is [`Ema`](`https://github.com/srid/ema`) by  Sridhar Ratnakumar, but the documentation did not detail its features neither how it is built.].
 Relies on `git` for version management and Debian Linux.
