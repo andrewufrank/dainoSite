@@ -31,16 +31,19 @@ Daino uses  `pandoc` and other packages on `Hackage` (e.g. shake, twitch, scotty
 Relies on `git` for version management and Debian Linux.
 
 ## Example site
+The example site [shown here](daino.gerastree.at) contains more information how to build a site with `daino`.
 
-`Daino` can be installed from hackage or downloaded or cloned  from `git clone git@github.com:andrewufrank/daino.git` and installed with `cabal install` or `stack install`^[Initial compilation and linking brings in a large number of packages, e.g. Pandoc, and may take a while; on a typically AMD computer 30..60 Minutes, on a ARM64 (e.g. RaspberryPi4) twice as long for the initial installation.].
+`Daino` can be installed from hackage or downloaded or cloned  from `git clone https://github.com/andrewufrank/daino.git` and installed with `cabal install` or `stack install`^[Initial compilation and linking brings in a large number of packages, e.g. Pandoc, and may take a while; on a typically AMD computer 30..60 Minutes, on a ARM64 (e.g. RaspberryPi4) twice as long for the initial installation.].
 
-The example site [shown here](daino.gerastree.at) can be downloaded or cloned   from [github](git clone git@github.com:andrewufrank/dainoSite). 
+The example site can be downloaded or cloned   from `github` with `git clone https://github.com/andrewufrank/dainoSite.git`. In the `settings3.yaml` file replace `/home/frank/dainoTest_1_5_2` three times with the path to the directory which contains the test site.
 
-To run the test site, start daino in it with  `daino -qs`  and render the result in a browser by opening `localhost:3000`. The web pages written in markdown can be edited and the server restarted to update the site.
+To run the test site, start daino in it with  `daino -qs`  and render the result in a browser by opening `localhost:3000`. The web pages written in markdown can be edited and the server restarted to update the site.^[Producing the pdf files as well with `daino -s` may produce some messages pointing to the latex logs; can usually be ignored.]
 
 ## Running your own site
-Copying the folder `dough` to a suitable directory and edit the `settinsNN.yaml`^[Currently `settings3.yaml`] file found there is enough to start your own site with running `daini -qs` in this directory.  
+Copying the the test site to a suitable directory and edit the `settinsNN.yaml`^[Currently `settings3.yaml`] file found there is enough to start your own site with running `daino -qs` in this directory. 
+
+Delete the `.git` directory in the copy and restart git with `git init` to obtain version management for your site.
 
 # More information: 
 
-The following pages explain the rationale for "yet another static site generator" and show with examples how it can be used. 
+The ReadMe in the test site  explain the rationale for "yet another static site generator" and show with examples how it can be used. The Blog directory contains useful test pages to check processing.
