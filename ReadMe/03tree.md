@@ -12,7 +12,7 @@ reference-section-title: Reference
 # publish: true
 version: publish
 visibility: public
-# headerShift: one todo 
+# headerShift: one   
 ---
 
 # Principle: The structure of the site and the structure of it is stored representation should correspond

@@ -13,7 +13,7 @@ visibility: public
 ---
 
  
-## Source files are converted to HTML using Pandoc
+# Source files are converted to HTML using Pandoc
 
 The web page sources are translated using Pandoc to HTML and PDF. 
 Pandoc is equally used to convert the markdown sources to latex and then to PDF. 
