@@ -10,7 +10,7 @@ version: publish
 
 # This example shows the inclusion of math
 
-nonsense text:  von zwei Klassen und einem mittleren Einkommen als das $\alpha$ -fache des Subsistenzminimum und $\epsilon$ der kleine Anteil der Oberklasse als
+nonsense text:  von zwei Klassen und einem mittleren Einkommen als das \alpha -fache des Subsistenzminimum und $\epsilon$ der kleine Anteil der Oberklasse als
 
     $$G* = (1-\epsilon) * (\alpha - 1) / (\alpha)$$
 
@@ -18,4 +18,4 @@ nonsense text:  von zwei Klassen und einem mittleren Einkommen als das $\alpha$ 
 
     und eine Formel im Text $(\alpha - 1) / (\alpha)$ eingefuegt.
 
-Funktioniert auch in einer Fussnote^[hier $\alpha$  und $$(\alpha - 1) / (\alpha)$$. Stimmt?]
+Funktioniert auch in einer Fussnote^[hier $\alpha$  und $$(\alpha - 1) / (\alpha)$$.] Stimmt?

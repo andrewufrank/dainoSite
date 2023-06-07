@@ -1,7 +1,7 @@
 ---
-title: "Static Site Generator Daino: Landing page" 
+title: "Static Site Generator `Daino`: Landing page" 
 abstract: The `Example Homepage` 
-    produced by `daino` list differences to other SSG and gives rationale for its design. It points to the source and how to use it to run your own web site.
+    produced by `daino` list differences to other SSG and gives the rationale for its design. `Daino` is built the Unix-style from existing tools. The site explains how to use it to run your own web site.
 author: Author of Settings
 date: 2010-01-29
 keywords: homepage
@@ -24,11 +24,14 @@ A static site generator designed by an academic to allow:
 - a single `yaml` file for setup, and 
 - a self-contained result which can be hosted on any web server.
 
-The program runs on Debian Linux^[Could run on Ubuntu or likely Windows(probably some adaptations needed).] locally on PC or Raspery Pi 4. 
-Restricted accsss on some directories^[My provider uses `cpanel` and allows password protection to any directory.].
+The program runs on Debian Linux^[Could run on Ubuntu or likely Windows(probably some adaptations needed).] locally on a PC or Raspery Pi 4.
+
+Restricted accsss on some directories is achieved using the server^[My provider uses `cpanel` and allows password protection to any directory.].
+
 ## Software reuse:
 Daino uses  `pandoc` and other packages on `Hackage` (e.g. shake, twitch, scotty)^[It was influenced by Chris Penner's [slick](https://github.com/ChrisPenner/slick#readme), newer, and seemingly simpler is [`Ema`](`https://github.com/srid/ema`) by  Sridhar Ratnakumar, but the documentation did not detail its features neither how it is built.].
-Relies on `git` for version management and Debian Linux.
+
+It relies on `git` for version management and Debian Linux.
 
 ## Example site
 The example site [shown here](daino.gerastree.at) contains more information how to build a site with `daino`.
@@ -37,7 +40,7 @@ The example site [shown here](daino.gerastree.at) contains more information how 
 
 The example site can be downloaded or cloned   from `github` with `git clone https://github.com/andrewufrank/dainoSite.git`. In the `settings3.yaml` file replace `/home/frank/dainoTest_1_5_2` three times with the path to the directory which contains the test site.
 
-To run the test site, start daino in it with  `daino -qs`  and render the result in a browser by opening `localhost:3000`. The web pages written in markdown can be edited and the server restarted to update the site.^[Producing the pdf files as well with `daino -s` may produce some messages pointing to the latex logs; can usually be ignored.]
+To run the test site, start daino in this directory with  `daino -qs`  and render the result in a browser by opening `localhost:3000`. The web pages written in markdown can be edited and the server restarted to update the site.^[Producing the pdf files as well with `daino -s` may produce some messages pointing to the latex logs; can usually be ignored.]
 
 ## Running your own site
 Copying the the test site to a suitable directory and edit the `settinsNN.yaml`^[Currently `settings3.yaml`] file found there is enough to start your own site with running `daino -qs` in this directory. 
@@ -46,4 +49,4 @@ Delete the `.git` directory in the copy and restart git with `git init` to obtai
 
 # More information: 
 
-The ReadMe in the test site  explain the rationale for "yet another static site generator" and show with examples how it can be used. The Blog directory contains useful test pages to check processing.
+The `ReadMe` in the test site  explain the rationale for "yet another static site generator" and show with examples how it can be used. The Blog directory contains instructive examples of specific uses and serves as test pages to check processing.
