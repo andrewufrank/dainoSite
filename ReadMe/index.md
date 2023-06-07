@@ -10,7 +10,7 @@ keywords: test
 version: publish
 # visibility: public
 bibliography: "resources/BibTexLatex.bib"
-book: "book"
+book: "booklet"
 ---
 
 Design of `daino` was guided by some principles which are explained in this `ReadMe`. 

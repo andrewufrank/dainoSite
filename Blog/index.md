@@ -15,7 +15,7 @@ date: Jan. 4, 2019
 indexSort: filename
 bibliography: "resources/BibTexLatex.bib"
 # an index needs a biblio entry to cover included mds
-book: "book"
+book: "booklet"
 bibliography: "resources/BibTexLatex.bib"
 keywords: test
 version: publish

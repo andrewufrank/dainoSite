@@ -5,7 +5,7 @@ bibliography: "resources/BibTexLatex.bib"
 # reference-section-title: Reference
 version: publish
 date: 2023-03-31
-book: "book"
+book: "booklet"
 ---
 
 # ix-hl1 Title
