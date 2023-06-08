@@ -23,7 +23,7 @@ Markdown is an easy to learn and versatile. The list possible formatting is quit
 - (numbered and unnumbered) lists, 
 - horizontal rules, 
 - tables, 
-- inline formatting (emphasis, strikeout, superscripts, subscripts, verbatim, and small caps text), 
+- inline formatting (emphasis, strikeout, superscripts, subscripts, "booklet"im, and small caps text), 
 - LaTeX math expressions, 
 - equations, 
 - links, 
