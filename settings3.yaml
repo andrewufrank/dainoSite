@@ -17,8 +17,9 @@ siteLayout:
     # todo seems not to work. but entry here is required
     blogAuthorToSuppress: 
       - "AOS"
+      - "AUF"
       - "Author of Settings"   
-    defaultAuthor: "AOS"
+    defaultAuthor: "AOS" 
     replaceErlaubtFile: "/home/frank/Workspace11/replaceUmlaut/nichtUmlaute.txt"
     # the file with permitte words not to replace
     # defaultBibliography: "resources/BibTexLatex.bib"
