@@ -8,14 +8,25 @@ version: publish
 # visibility: public
 ---
 
-# This example shows the inclusion of math
+# This example shows the inclusion of latex math code
 
-nonsense text:  von zwei Klassen und einem mittleren Einkommen als das \alpha -fache des Subsistenzminimum und $\epsilon$ der kleine Anteil der Oberklasse als
+nonsense text  $\alpha$-times   and $\epsilon$ of  
 
-    $$G* = (1-\epsilon) * (\alpha - 1) / (\alpha)$$
+$G* = (1-\epsilon) \times (\alpha - 1) \div (\alpha)$
 
-    <!-- todo p.4 formula 6 -->
+mit zwei
+$$G* = (1-\epsilon) \times (\alpha - 1) \div (\alpha)$$
 
-    und eine Formel im Text $(\alpha - 1) / (\alpha)$ eingefuegt.
+und eine Formel im Text $(\alpha - 1) \div (\alpha)$ eingefuegt.
 
-Funktioniert auch in einer Fussnote^[hier $\alpha$  und $$(\alpha - 1) / (\alpha)$$.] Stimmt?
+in footnote[^foot1] ok?
+
+[^foot1]: hier $\pi$  und $(\alpha - 1) \times (\alpha)$. 
+
+convert markdown with freestanding pandoc: 
+
+- pandoc -s --mathml -i math4two.md  -o math4two.html
+- pandoc -s --pdf-engine=lualatex -i math4two.md  -o math4two.pdf
+
+Rules:
+Anything between two $ characters will be treated as TeX math. The opening $ must have a non-space character immediately to its right, while the closing $ must have a non-space character immediately to its left, and must not be followed immediately by a digit. Thus, $20,000 and $30,000 won’t parse as math. If for some reason you need to enclose text in literal $ characters, backslash-escape them and they won’t be treated as math delimiters.
