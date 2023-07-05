@@ -1,7 +1,7 @@
 ---
 title: "Static Site Generator `Daino`: Landing page" 
 abstract: The `Example Homepage` 
-    produced by `daino` list differences to other SSG and gives the rationale for its design. `Daino` is built the Unix-style from existing tools. The site explains how to use it to run your own web site.
+    produced by `daino` lists differences to other SSG and gives the rationale for its design. `Daino` is built the Unix-style from existing tools. The site explains how to use it to run your own web site.
 author: Author of Settings
 date: 2010-01-29
 keywords: homepage
@@ -43,7 +43,9 @@ The example site can be downloaded or cloned   from `github` with `git clone htt
 To run the test site, start daino in this directory with  `daino -qs`  and render the result in a browser by opening `localhost:3000`. The web pages written in markdown can be edited and the server restarted to update the site.^[Producing the pdf files as well with `daino -s` may produce some messages pointing to the latex logs; can usually be ignored.]
 
 ## Running your own site
-Copying the the test site to a suitable directory and edit the `settinsNN.yaml`^[Currently `settings3.yaml`] file found there is enough to start your own site with running `daino -qs` in this directory. 
+Copying the the test site to a suitable directory and edit the   
+`settinsNN.yaml`^[Currently `settings3.yaml`] 
+file found there is enough to start your own site with running `daino -qs` in this directory. 
 
 Delete the `.git` directory in the copy and restart git with `git init` to obtain version management for your site.
 

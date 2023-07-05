@@ -19,6 +19,11 @@ version: publish
  
 Rules for the YAML header are strict. After the keyword follows a colon and then a text. This text MUST NOT contain a colon (":") or set in quotes (single or double).
 
+To have a line break add two blanks  
+second line  
+third line.  
+Unfortunately this is not easily visible  
+and pandoc markdown specific (adding a "\" at end of line does not help!).
 
 A formatted list:
 - first

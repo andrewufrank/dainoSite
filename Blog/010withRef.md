@@ -27,7 +27,9 @@ References from a bib text file which is stored in `resources/BibTexLatex.bib`, 
 
 References in markdown are in `[..]` and start with `@` followed by the the bibtex-key. Examples
 
-With a reference to [@frank09geo] which is written as "@" followed by "frank09geo".
+With a reference to [@frank09geo] which is written as "@" followed by "frank09geo". References can be in footnotes^[like this inline footnote with reference[@berners2001semantic] which is listed above!] or this[^f1].
+
+[^f1]: [A reference to something unpublished [@hamster11].]
 
 References which should be inserted in the bibliography but are not cited in the text can be listed as `nocite`, here `@navratil08` (note the need to preceed the bibtex key with `@`). 
 

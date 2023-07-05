@@ -13,7 +13,7 @@ date: Jan. 4, 2019
 # indexPage: true
 # todo is index page true necessary?
 indexSort: filename
-bibliography: "resources/BibTexLatex.bib"
+bibliography: resources/BibTexLatex.bib
 # an index needs a biblio entry to cover included mds
 book: "booklet"
 bibliography: "resources/BibTexLatex.bib"

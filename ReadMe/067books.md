@@ -33,3 +33,9 @@ in the `yaml header`. The single markdown header marker `#` is interpreted as `s
 
 For `bookbig` and `booklet` table of content is automatically produced. 
 
+Additionally exists for `bookbig` an additional argument 
+
+    bookprint
+
+which includes the blank pages necessary for a book version ready to print. 
+

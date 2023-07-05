@@ -12,6 +12,8 @@ siteLayout:
     # masterTemplateFile: master6.dtpl  #in themeDir
     masterTemplateFile: master7tufte.dtpl  #in themeDir
     texTemplateFile: latex8tufte.dtpl
+         # latex7.dtpl for non-tufte layout 
+         # (footnotes at bottom of page)
     # change is global for the site, not per page TODO?
     doNotBake: "DNB"
     # todo seems not to work. but entry here is required
