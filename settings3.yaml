@@ -11,8 +11,8 @@ siteLayout:
     testDir: /home/frank/.daino 
     # masterTemplateFile: master6.dtpl  #in themeDir
     masterTemplateFile: master7tufte.dtpl  #in themeDir
-    # texTemplateFile: latex8tufte.dtpl
-    texTemplateFile: latex7.dtpl # for non-tufte layout 
+    texTemplateFile: latexTufte81.dtpl
+    # texTemplateFile: latex7.dtpl # for non-tufte layout 
          # (footnotes at bottom of page)
     # change is global for the site, not per page TODO?
     doNotBake: "DNB"
