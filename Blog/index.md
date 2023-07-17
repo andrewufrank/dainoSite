@@ -1,10 +1,10 @@
 ---
 title: Primary index for Blog
-abstract: |
-    The web pages test specific aspects of web page construction, for example:  
+abstract:  |
+    The web pages test specific aspects of web page construction, for example 
 
     - references,
-    - images, 
+    - images.
 
     The directory for experiments.
 

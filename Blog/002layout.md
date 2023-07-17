@@ -1,10 +1,11 @@
 ---
 title: 'The "002layout"  example: colons and quotes'  
-abstract: |
-    An example   abstract with fixed line breaks.   
-    Note: 
-    - a title with "colon" requires quotes and 
-    - how to format a list in abstract. 
+abstract: 
+    "An non-working example   abstract with fixed line breaks writen with escaped backslash n.\n\n    
+    Note: \n
+    - a title with `colon` requires quotes and \n
+
+    - how to format a list in abstract. "
 # author: AOS
 date: 2020-06-18
 # keywords: Blog
@@ -16,7 +17,6 @@ version: publish
 # headerShift: one
 ---
 
- 
 Rules for the YAML header are strict. After the keyword follows a colon and then a text. This text MUST NOT contain a colon (":") or set in quotes (single or double).
 
 To have a line break add two blanks  

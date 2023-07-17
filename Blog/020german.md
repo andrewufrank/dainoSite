@@ -16,7 +16,7 @@ version: publish
 # headerShift: one
 bibliography: resources/BibTexLatex.bib
 # reference-section-title: Literatur
-doNotReplace: blue true koeffizient einbauen "ae" "oe" "ue"
+doNotReplace: blue true koeffizient einbauen "ä" "ö" "ü"
 ---
 
 # 01blog1 level1 Titel
@@ -24,7 +24,7 @@ Ein Blog ohne Sinn und dem einzigen Zweck, zu testen, wie ein Blog in deutscher 
 
 Hier wird der Titel für die Literaturliste deutsch (nicht dänisch) gesetzt!
 
-Eine einfaches Hilfsprogramm setzt die kombinationen "ae", "oe" und "ue" in "ä", "ö" und "ü" um; es vermeidet Änderungen für die Fälle, in denen der Umlaut nicht zulässig ist (z.B. Koeffizient).
+Eine einfaches Hilfsprogramm setzt die kombinationen "ä", "ö" und "ü" in "ä", "ö" und "ü" um; es vermeidet Änderungen für die Fälle, in denen der Umlaut nicht zulässig ist (z.B. Koeffizient).
 
 
 ## level2 Dies ist der Abschnitt unter dem ersten
