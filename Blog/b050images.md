@@ -1,8 +1,6 @@
 ---
 title:   050withImage  
-abstract: "Image referenced absolute or \\ 
-            relative\\ 
-            with line breaks as \\ todo check!"
+abstract: "Image referenced absolute or  relative"
 # author: AOS
 caption: Tal bei Obertauern
 date: Jan. 4, 2019

@@ -27,7 +27,7 @@ The mapping between rendered web pages and the files representing them is crucia
 
 Each web page in a site is written as a markdown file, which the generator transforms to a HTML file which can be rendered. The structure of the source (`dough`) of the web page is parallel to the directory structure of the `baked` homepage, which can be served by a web server and rendered by a browser.
 
-A markdown page can call for **additional material** and link to other renderable pages not produced from a markdown page.
+A markdown page can call for **additional material** and link to other pages which can be rendered but not produced from a markdown page.
 
 ## Tree structure
 
@@ -38,7 +38,7 @@ The web pages are stored as files in  directories. The directory tree starts wit
 
 Directories store only files and additional information for the presentation of the directory as web page is necessary. For each directory an `index.md` file is added which comments on the directories content and the list of directories is rendered.
 
-Additional content can be stored in `resources` directories^[Which must be called `resources`, allother directories are assumed to be conent directories!]
+Additional content can be stored in `resources` directories^[Which must be called `resources`, all other directories are assumed to be content directories!]
 
 ## Correspondence between presentation and storage 
 

@@ -10,11 +10,12 @@ version: publish
 
 # This example shows the inclusion of latex math code
 
-nonsense text  $\alpha$-times   and $\epsilon$ of  
+nonsense text  $\alpha$-times   and $\epsilon$ in single dollar characters. The next line brackets the formula with a single dollar character 
 
 $G* = (1-\epsilon) \times (\alpha - 1) \div (\alpha)$
 
-mit zwei
+and then with two 
+
 $$G* = (1-\epsilon) \times (\alpha - 1) \div (\alpha)$$
 
 und eine Formel im Text $(\alpha - 1) \div (\alpha)$ eingefuegt.
@@ -22,6 +23,18 @@ und eine Formel im Text $(\alpha - 1) \div (\alpha)$ eingefuegt.
 in footnote[^foot1] ok?
 
 [^foot1]: hier $\pi$  und $(\alpha - 1) \times (\alpha)$. 
+
+Problems encountered with formula in footnote like here.[^foot2]
+
+[^foot2]: Footnote with some text and a formula 
+
+    $G* = (1-\epsilon) \times (\alpha - 1) \div (\alpha)$
+
+    to demonstrate. 
+
+
+
+
 
 convert markdown with freestanding pandoc: 
 

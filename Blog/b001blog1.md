@@ -43,6 +43,8 @@ textfor level 4
 ##### level 5
 Text at level 5 are slightly indented in pdf but not in html. Is this a good idea
 
+if level 5 produces a latex error, then likely are the limitations on depth limit in the  usr/local/texlive/2023/texmf-dist/tex/latex/tufte-latex/tufte-common.def are not commented out.
+
 To show list, references and images are explained in the next examples.[^long]
 
 [^long]: This is a footnote which is too long and contains much text to fill space and intereact with the next title; a second sentence without no other intentions as filling space.
