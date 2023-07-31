@@ -1,12 +1,25 @@
 ---
 title: "030: title and abstract with newline"
-abstract: |
+abstract: 
     Ein Blog ohne Sinn auf Deutsch
-    mit einenm Doppelpunkt im Titel (innerhalb Anführungszeichen)
-    und mit einem ä im Abstract
-    und weiteren Zeilen im abstract
-    mit einem fixen Zeilenumbruch.
+
+
+    NL mit einenm Doppelpunkt im Titel (innerhalb Anführungszeichen)
+
+
+    NL und mit einem ä im Abstract
+
+    und weiteren Zeilen im abstract  
+    mit einem fixen Zeilenumbruch und einer liste 
+
+
+    = eins (ein strichlein, plus oder stern geht verloren!)
+
+
+    = zwei 
     
+
+    endeabstract
 
 author: Peter Beispiel
 date: 2020-06-18
@@ -24,5 +37,6 @@ doNotReplace: blue true koeffizient einbauen "ä" "ö" "ü"
 
 This is a rule of YAML, which reads the header.
 
+Linebreaks in the YAML header are forced by two returns (a single return has no effect). 
 
 Der fixe Zeilenumbruch im Abstract ist nicht günstig für die automatische Anpassung an die Schirmgrösse.

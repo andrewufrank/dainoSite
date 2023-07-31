@@ -1,22 +1,34 @@
 ---
-title: "010 WithReference"
+title: "010 WithReference2"
 abstract: |
     Example with references from the standard bibliography.  
 
 
-# author: AOS
+author: AOS
 bibliography: resources/BibTexLatex.bib
+
 nocite: |
   @navratil08
 date: 2010-07-29
 # keywords: homepage
-# style: resources/chicago-fullnote-bibliography-bb.csl
-# styleBiber: numeric
+style: resources/chicago-fullnote-bibliography-bb.csl
+styleBiber: numeric
+biblio-style: author-year
+biblatex: True
+biblatexoptions:      "autocite=footnote, hyperref=true"
 reference-section-title: Reference
 
 version: publish
 # # visibility: public
 # headerShift: zero
+latDainoVersion: "0.1.6.2"
+latFn: "Blog/b010withRef.md"
+latBakedDir: "/home/frank/tests/"
+latAuthor: someName
+# latBibliography: resources/BibTexLatex.bib
+reference-section-title: Reference
+latLanguage: "english"
+language: "english"
 ---
 
 # References from standard biblio

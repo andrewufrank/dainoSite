@@ -1,11 +1,22 @@
 ---
 title: 'The "002layout"  example: colons and quotes'  
 abstract: 
-    "An non-working example   abstract with fixed line breaks writen with escaped backslash n.\n\n    
-    Note: \n
-    - a title with `colon` requires quotes and \n
+    An   example   abstract
+    
+    with fixed line breaks writen with two newlines.
 
-    - how to format a list in abstract. "
+
+    Note
+    
+
+    = a title with `colon` requires quotes and  
+
+
+    = this simulates a list (but a minus, plus or start gets lots)
+
+
+    But must not be include colons and the whole not in quotes. 
+
 # author: AOS
 date: 2020-06-18
 # keywords: Blog
