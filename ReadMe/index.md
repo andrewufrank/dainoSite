@@ -1,7 +1,8 @@
 ---
 title: ix-Title of Book 
-abstract: ix-Abstract_of_Book 
+abstract: ix-Abstract _of_ Book 
 bibliography: "resources/BibTexLatex.bib"
+keywords: exampleKeyword exampleKeyword2
 # reference-section-title: Reference
 version: publish
 date: 2023-03-31
