@@ -10,7 +10,7 @@ version: publish
 # visibility: public
 ---
 
-#  Daino: A Static Site Generator 
+#  DEMO 6.2 -- Daino: A Static Site Generator 
 <!-- copy of the ReadMe.md file shown in github -->
 
 A static site generator designed by an academic to allow: 
