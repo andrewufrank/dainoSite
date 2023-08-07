@@ -1,5 +1,5 @@
 ---
-title: "Static Site Generator `Daino`: Landing page" 
+title: "Static Site Generator Daino: Landing page" 
 abstract: The `Example Homepage` 
     produced by `daino` lists differences to other SSG and gives the rationale for its design. `Daino` is built the Unix-style from existing tools. The site explains how to use it to run your own web site.
 author: Author of Settings
@@ -13,7 +13,7 @@ version: publish
 #  DEMO 6.2 -- Daino: A Static Site Generator 
 <!-- copy of the ReadMe.md file shown in github -->
 
-A static site generator designed by an academic to allow: 
+<!-- A static site generator designed by an academic to allow: 
 
 - web pages written as (Pandoc) markdown (with YAML header for title and `bibtex` references, etc.),
 - page layout inspired by Tufte and using `w3c` framework to adapt to different screen sizes,
@@ -51,4 +51,4 @@ Delete the `.git` directory in the copy and restart git with `git init` to obtai
 
 # More information: 
 
-The `ReadMe` in the test site  explain the rationale for "yet another static site generator" and show with examples how it can be used. The Blog directory contains instructive examples of specific uses and serves as test pages to check processing.
+The `ReadMe` in the test site  explain the rationale for "yet another static site generator" and show with examples how it can be used. The Blog directory contains instructive examples of specific uses and serves as test pages to check processing. -->
