@@ -63,7 +63,7 @@ menuitems:
      # and should reference an index.html file (not .md)
       - navlink: ReadMe/index.html
         navtext: ReadMe
-      - navlink: SSGdesign/index.html
+      - navlink: DainoDesign/index.html
         navtext: Rationale
       - navlink: Contact/index.html
         navtext: Contact
