@@ -2,7 +2,9 @@
 # change to start a new site
 
 siteLayout:
-    themeDir:  /home/frank/Workspace11/dainoTheme
+    themeDir:  /home/frank/Workspace11/u4blog/uniform-pandoc/theme
+    # was -- /home/frank/Workspace11/dainoTheme
+    # must be dir (not including templates)
     # used to place a link to theme in dough/resources
     doughDir: /home/frank/Workspace11/dainoSite 
     bakedDir: /home/frank/bakedTestSite
@@ -10,8 +12,8 @@ siteLayout:
     reportFile: /home/frank/dainoReport.txt
     testDir: /home/frank/.daino 
     # masterTemplateFile: master6.dtpl  #in themeDir
-    masterTemplateFile: master7tufte.dtpl  #in themeDir
-    texTemplateFile: latexTufte81.dtpl
+    masterTemplateFile: htmlTufte63.dtpl  #in themeDir
+    texTemplateFile: latexTufte63.dtpl
     # texTemplateFile: latex7.dtpl # for non-tufte layout 
          # (footnotes at bottom of page)
     # change is global for the site, not per page TODO?

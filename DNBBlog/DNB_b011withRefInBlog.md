@@ -1,7 +1,9 @@
 ---
 title: "011 with reference locally set"
-abstract: |
-     This blog uses a reference given locally.  
+abstract:  This blog uses a reference given locally. 
+    Does not work after uniform-pandoc 1.6.3 because 
+    I have not understood how to get the references 
+    out of meta. 
  
 # author: AOS
 bibliography: resources/BibTexLatex.bib
