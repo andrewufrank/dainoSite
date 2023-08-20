@@ -69,6 +69,8 @@ menuitems:
         navtext: Contact
       - navlink: Blog/index.html
         navtext: Blog
+      - navlink: SimpleTest/index.html
+        navtext: Test
       - navlink : PublicationList/index.html
         navtext : Publications
       # - navlink : dainodesign/index.html
