@@ -2,7 +2,9 @@
 # change to start a new site
 
 siteLayout:
-    themeDir:  /home/frank/Workspace11/dainoTheme
+    themeDir:  /home/frank/Workspace11/u4blog/uniform-pandoc/theme
+    # was -- /home/frank/Workspace11/dainoTheme
+    # must be dir (not including templates)
     # used to place a link to theme in dough/resources
     doughDir: /home/frank/Workspace11/dainoSite 
     bakedDir: /home/frank/bakedTestSite
@@ -10,8 +12,8 @@ siteLayout:
     reportFile: /home/frank/dainoReport.txt
     testDir: /home/frank/.daino 
     # masterTemplateFile: master6.dtpl  #in themeDir
-    masterTemplateFile: htmlTufte81.dtpl  #in themeDir
-    texTemplateFile: latexTufte81.dtpl
+    masterTemplateFile: htmlTufte63.dtpl  #in themeDir
+    texTemplateFile: latexTufte63.dtpl
     # texTemplateFile: latex7.dtpl # for non-tufte layout 
          # (footnotes at bottom of page)
     # change is global for the site, not per page TODO?
@@ -61,15 +63,16 @@ menuitems:
      # and should reference an index.html file (not .md)
       - navlink: ReadMe/index.html
         navtext: ReadMe
-      - navlink: SSGdesign/index.html
+      - navlink: DainoDesign/index.html
         navtext: Rationale
       - navlink: Contact/index.html
         navtext: Contact
       - navlink: Blog/index.html
         navtext: Blog
+      - navlink: SimpleTest/index.html
+        navtext: Test
       - navlink : PublicationList/index.html
         navtext : Publications
       # - navlink : dainodesign/index.html
       #   navtext : daino Documentation  
-
 
