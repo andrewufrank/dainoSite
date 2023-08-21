@@ -15,7 +15,7 @@ visibility: public
 # Presentation can be changed 
 
 A change in the presentation style should not affect the content.
-It must bepossible to move from fixed-width presentation to a presentation which adapts to different screen sized and later to use a Tufte-inspired style without touching the web page content. 
+It must be possible to move from fixed-width presentation to a presentation which adapts to different screen sized and later to use a Tufte-inspired style without touching the web page content. 
 
 Markdown allows to structure the content with  hints for the presentation (e.g. title, footnote) but not fixing how these are rendered. 
 

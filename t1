@@ -1,0 +1,760 @@
+------------------  daino constructing a static site generator 
+ Version {versionBranch = [0,1,5,6,3], versionTags = []}  ----------------------------
+
+dainoProcess 0 debug flags NoticeLevel0 PubFlags {privateFlag = False, draftFlag = False, testFlag = False, testNewFlag = True, restartFlag = False, quickFlag = True, watchFlag = False, serverFlag = True, verboseFlag = False, locationDir = "."}
+dainoProcess 1 useTestSite True
+dainoProcess 5 dir of settings file Path Abs Dir /home/frank/Workspace11/dainoSite/
+
+ dainoProcess currDir is doughP Path Abs Dir /home/frank/Workspace11/dainoSite/
+deleted "/home/frank/bakedTestSite/"
+
+
+===================================== shakeAll start 
+ flags PubFlags
+  { privateFlag = False
+  , draftFlag = False
+  , testFlag = False
+  , testNewFlag = True
+  , restartFlag = False
+  , quickFlag = True
+  , watchFlag = False
+  , serverFlag = True
+  , verboseFlag = False
+  , locationDir = "."
+  } 
+caused by  . 
+debug: NoticeLevel0 
+dough Path Abs Dir /home/frank/Workspace11/dainoSite/ 
+baked Path Abs Dir /home/frank/bakedTestSite/ 
+theme Path Abs Dir /home/frank/Workspace11/u4blog/uniform-pandoc/theme/ 
+=======================================
+readMarkdownFile2docrep fnin /home/frank/Workspace11/dainoSite/index.md
+readMarkdownFile2docrep fnin /home/frank/Workspace11/dainoSite/Event/index.md
+readMarkdownFile2docrep fnin /home/frank/Workspace11/dainoSite/ReadMe/02alltxt.md
+readMarkdownFile2docrep fnin /home/frank/Workspace11/dainoSite/ReadMe/03tree.md
+readMarkdownFile2docrep fnin /home/frank/Workspace11/dainoSite/ReadMe/04german.md
+readMarkdownFile2docrep fnin /home/frank/Workspace11/dainoSite/ReadMe/05pandoc.md
+readMarkdownFile2docrep fnin /home/frank/Workspace11/dainoSite/ReadMe/index.md
+===================
+getNeeds -  source files 1 for ext md files
+ [Path Rel File index.md,Path Rel File Event/index.md,Path Rel File ReadMe/02alltxt.md,Path Rel File ReadMe/03tree.md,Path Rel File ReadMe/04german.md,Path Rel File ReadMe/05pandoc.md,Path Rel File ReadMe/index.md]
+
+bakePDF -  target files 2 for ext html files
+ [Path Abs File /home/frank/bakedTestSite/index.html,Path Abs File /home/frank/bakedTestSite/Event/index.html,Path Abs File /home/frank/bakedTestSite/ReadMe/02alltxt.html,Path Abs File /home/frank/bakedTestSite/ReadMe/03tree.html,Path Abs File /home/frank/bakedTestSite/ReadMe/04german.html,Path Abs File /home/frank/bakedTestSite/ReadMe/index.html]
+readMarkdownFile2docrep fnin /home/frank/Workspace11/dainoSite/ReadMe/index.md
+
+convertAny runErr2Action convMD2docrep 
+	 needs found []
+
+convertAny runErr2Action convDocrep2panrep 
+	 needs found ["/home/frank/Workspace11/dainoSite/ReadMe/03tree.md","/home/frank/Workspace11/dainoSite/ReadMe/02alltxt.md","/home/frank/Workspace11/dainoSite/ReadMe/04german.md","/home/frank/Workspace11/dainoSite/ReadMe/05pandoc.md"]
+readMarkdownFile2docrep fnin /home/frank/Workspace11/dainoSite/ReadMe/04german.md
+
+convertAny runErr2Action convMD2docrep 
+	 needs found []
+
+convertAny runErr2Action convDocrep2panrep 
+	 needs found []
+panrep2html valsDirs []
+panrep2html valsFiles []
+panrep2html extra5 DainoValues
+  { mdFile = "/home/frank/Workspace11/dainoSite/ReadMe/04german.md"
+  , mdRelPath = "ReadMe/04german.md"
+  , dirEntries = []
+  , fileEntries = []
+  , dainoVersion =
+      "Version {versionBranch = [0,1,5,6,3], versionTags = []}"
+  , latLanguage = "english"
+  , authorReduced = ""
+  , bookBig = False
+  , booklet = False
+  , bookprint = False
+  , webroot = "/home/frank/Workspace11/dainoSite/"
+  , pdf2 = "ReadMe/04german.pdf"
+  }
+panrep2html render testTemplate done tt1 
+    
+
+    These are all the values for htmlTufte63 v1 .dtpl
+
+lang            en
+settingsAuthor  Author of Settings
+date            2023-03-31
+keywords        
+page-title  missing todo 
+image           
+imageCaption    
+siteBanner      /resources/theme/templates/img/DSC04809.JPG
+siteBannerCaption   Ruhiger Sommer im Garten in Geras
+sitename        siteName3
+sitebyline      siteByLine3
+menuitems        
+                    ReadMe/index.html
+                    ReadMe
+                     
+                    SSGdesign/index.html
+                    Rationale
+                     
+                    Contact/index.html
+                    Contact
+                     
+                    Blog/index.html
+                    Blog
+                     
+                    PublicationList/index.html
+                    Publications
+                    
+title           04german
+subtitle         
+author          Author of Settings
+table of contents   
+abstract        04abstract: In german.
+linkpdf         
+date   
+content         <h1 id="03-hl1-title-for-04">03-hl1 title for 04</h1>
+<p>03-text1: Mit referenz <span class="citation"
+data-cites="frank-machbarkeit">(Frank 2014)</span>.</p>
+<h2 id="o3-hl2-überschrift-04">o3-hl2 Überschrift 04</h2>
+<p>03-text2: Nicht sinnvoler Text.</p>
+<div id="refs" class="references csl-bib-body hanging-indent"
+role="list">
+<div id="ref-frank-machbarkeit" class="csl-entry" role="listitem">
+Frank, Andrew U. 2014. <span>“Machbarkeit eines InformaInformations für
+geographische Daten.”</span> Geoinformation, Technische Universitaet
+Wien.
+</div>
+</div>
+menu2files       
+menu2subdir     
+
+dainoversion    Version {versionBranch = [0,1,5,6,3], versionTags = []}
+visibility      public
+version         publish
+
+-- not in thmlTufte
+
+latLanguage     english
+styleBiber      authoryear
+mdFile          /home/frank/Workspace11/dainoSite/ReadMe/04german.md
+localhostPort   3000
+settingsDate    2019-01-01
+siteLayout      /home/frank/bakedTestSite/
+blogAuthorToSuppress 
+                                        AOS
+                                        AUF
+                                        Author of Settings
+                
+indexEntryDirectories 
+    
+indexEntryFiles 
+                            
+masterTemplateFile  htmlTufte63.dtpl
+texTemplateFile     latexTufte63.dtpl
+themeDir            /home/frank/Workspace11/u4blog/uniform-pandoc/theme/
+
+Bibliography        resources/BibTexLatex.bib  
+                    
+headerShitft        true
+
+-- for tufte latex
+book                
+pdf2                 ReadMe/04german.pdf 
+bookBig             false
+booklet             false
+bookprint
+bakedDir~webroot    /home/frank/Workspace11/dainoSite/
+
+
+-- end list of values extractable from template
+
+convertAny runErr2Action convPanrep2html 
+	 needs found []
+readMarkdownFile2docrep fnin /home/frank/Workspace11/dainoSite/ReadMe/03tree.md
+
+convertAny runErr2Action convMD2docrep 
+	 needs found []
+
+convertAny runErr2Action convDocrep2panrep 
+	 needs found []
+panrep2html valsDirs []
+panrep2html valsFiles []
+panrep2html extra5 DainoValues
+  { mdFile = "/home/frank/Workspace11/dainoSite/ReadMe/03tree.md"
+  , mdRelPath = "ReadMe/03tree.md"
+  , dirEntries = []
+  , fileEntries = []
+  , dainoVersion =
+      "Version {versionBranch = [0,1,5,6,3], versionTags = []}"
+  , latLanguage = "english"
+  , authorReduced = ""
+  , bookBig = False
+  , booklet = False
+  , bookprint = False
+  , webroot = "/home/frank/Workspace11/dainoSite/"
+  , pdf2 = "ReadMe/03tree.pdf"
+  }
+panrep2html render testTemplate done tt1 
+    
+
+    These are all the values for htmlTufte63 v1 .dtpl
+
+lang            en
+settingsAuthor  Author of Settings
+date            2023-03-31
+keywords        
+page-title  missing todo 
+image           
+imageCaption    
+siteBanner      /resources/theme/templates/img/DSC04809.JPG
+siteBannerCaption   Ruhiger Sommer im Garten in Geras
+sitename        siteName3
+sitebyline      siteByLine3
+menuitems        
+                    ReadMe/index.html
+                    ReadMe
+                     
+                    SSGdesign/index.html
+                    Rationale
+                     
+                    Contact/index.html
+                    Contact
+                     
+                    Blog/index.html
+                    Blog
+                     
+                    PublicationList/index.html
+                    Publications
+                    
+title           03title with ref
+subtitle         
+author          Author of Settings
+table of contents   
+abstract        03abstract: The web pages are structured as a tree.
+linkpdf         
+date   
+content         <h1 id="03-hl1-title-for-03">03-hl1 title for 03</h1>
+<p>03-text1: A web site is presented as pages of hyper-text with links
+between the pages<span class="citation"
+data-cites="berners2001semantic">(Berners-Lee, Hendler, and Lassila
+2001)</span>.</p>
+<h2 id="o3-hl2-title-for-03">o3-hl2 title for 03</h2>
+<p>03-text2: The site generator process converts the markdown file
+(<code>md</code> file) to a HTML file a browser can render.</p>
+<h1 class="unnumbered" id="bibliography">Reference</h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+role="list">
+<div id="ref-berners2001semantic" class="csl-entry" role="listitem">
+Berners-Lee, Tim, James Hendler, and Ora Lassila. 2001. <span>“The
+Semantic Web.”</span> <em>Scientific <span>A</span>merican</em> 284 (5):
+28–37.
+</div>
+</div>
+menu2files       
+menu2subdir     
+
+dainoversion    Version {versionBranch = [0,1,5,6,3], versionTags = []}
+visibility      public
+version         publish
+
+-- not in thmlTufte
+
+latLanguage     english
+styleBiber      authoryear
+mdFile          /home/frank/Workspace11/dainoSite/ReadMe/03tree.md
+localhostPort   3000
+settingsDate    2019-01-01
+siteLayout      /home/frank/bakedTestSite/
+blogAuthorToSuppress 
+                                        AOS
+                                        AUF
+                                        Author of Settings
+                
+indexEntryDirectories 
+    
+indexEntryFiles 
+                            
+masterTemplateFile  htmlTufte63.dtpl
+texTemplateFile     latexTufte63.dtpl
+themeDir            /home/frank/Workspace11/u4blog/uniform-pandoc/theme/
+
+Bibliography        resources/BibTexLatex.bib  
+                    
+headerShitft        true
+
+-- for tufte latex
+book                
+pdf2                 ReadMe/03tree.pdf 
+bookBig             false
+booklet             false
+bookprint
+bakedDir~webroot    /home/frank/Workspace11/dainoSite/
+
+
+-- end list of values extractable from template
+
+convertAny runErr2Action convPanrep2html 
+	 needs found []
+readMarkdownFile2docrep fnin /home/frank/Workspace11/dainoSite/ReadMe/02alltxt.md
+
+convertAny runErr2Action convMD2docrep 
+	 needs found []
+
+convertAny runErr2Action convDocrep2panrep 
+	 needs found []
+panrep2html valsDirs []
+panrep2html valsFiles []
+panrep2html extra5 DainoValues
+  { mdFile = "/home/frank/Workspace11/dainoSite/ReadMe/02alltxt.md"
+  , mdRelPath = "ReadMe/02alltxt.md"
+  , dirEntries = []
+  , fileEntries = []
+  , dainoVersion =
+      "Version {versionBranch = [0,1,5,6,3], versionTags = []}"
+  , latLanguage = "english"
+  , authorReduced = ""
+  , bookBig = False
+  , booklet = False
+  , bookprint = False
+  , webroot = "/home/frank/Workspace11/dainoSite/"
+  , pdf2 = "ReadMe/02alltxt.pdf"
+  }
+panrep2html render testTemplate done tt1 
+    
+
+    These are all the values for htmlTufte63 v1 .dtpl
+
+lang            en
+settingsAuthor  Author of Settings
+date            2023-03-31
+keywords        
+page-title  missing todo 
+image           
+imageCaption    
+siteBanner      /resources/theme/templates/img/DSC04809.JPG
+siteBannerCaption   Ruhiger Sommer im Garten in Geras
+sitename        siteName3
+sitebyline      siteByLine3
+menuitems        
+                    ReadMe/index.html
+                    ReadMe
+                     
+                    SSGdesign/index.html
+                    Rationale
+                     
+                    Contact/index.html
+                    Contact
+                     
+                    Blog/index.html
+                    Blog
+                     
+                    PublicationList/index.html
+                    Publications
+                    
+title           title02 missing
+subtitle         
+author          Author of Settings
+table of contents   
+abstract        abstract02 missing
+linkpdf         
+date   
+content         <h1 id="02-hl1title-for-02-but-the-title02-is-missing">02-hl1title for
+02 but the title02 is missing</h1>
+<p>02-text: The text for 02: The source of the web site should be
+stored.</p>
+menu2files       
+menu2subdir     
+
+dainoversion    Version {versionBranch = [0,1,5,6,3], versionTags = []}
+visibility      public
+version         publish
+
+-- not in thmlTufte
+
+latLanguage     english
+styleBiber      authoryear
+mdFile          /home/frank/Workspace11/dainoSite/ReadMe/02alltxt.md
+localhostPort   3000
+settingsDate    2019-01-01
+siteLayout      /home/frank/bakedTestSite/
+blogAuthorToSuppress 
+                                        AOS
+                                        AUF
+                                        Author of Settings
+                
+indexEntryDirectories 
+    
+indexEntryFiles 
+                            
+masterTemplateFile  htmlTufte63.dtpl
+texTemplateFile     latexTufte63.dtpl
+themeDir            /home/frank/Workspace11/u4blog/uniform-pandoc/theme/
+
+Bibliography        resources/BibTexLatex.bib  
+                    
+headerShitft        true
+
+-- for tufte latex
+book                
+pdf2                 ReadMe/02alltxt.pdf 
+bookBig             false
+booklet             false
+bookprint
+bakedDir~webroot    /home/frank/Workspace11/dainoSite/
+
+
+-- end list of values extractable from template
+
+convertAny runErr2Action convPanrep2html 
+	 needs found []
+readMarkdownFile2docrep fnin /home/frank/Workspace11/dainoSite/Event/index.md
+
+convertAny runErr2Action convMD2docrep 
+	 needs found []
+
+convertAny runErr2Action convDocrep2panrep 
+	 needs found []
+panrep2html valsDirs []
+panrep2html valsFiles []
+panrep2html extra5 DainoValues
+  { mdFile = "/home/frank/Workspace11/dainoSite/Event/index.md"
+  , mdRelPath = "Event/index.md"
+  , dirEntries = []
+  , fileEntries = []
+  , dainoVersion =
+      "Version {versionBranch = [0,1,5,6,3], versionTags = []}"
+  , latLanguage = "english"
+  , authorReduced = ""
+  , bookBig = False
+  , booklet = False
+  , bookprint = False
+  , webroot = "/home/frank/Workspace11/dainoSite/"
+  , pdf2 = "Event/index.pdf"
+  }
+panrep2html render testTemplate done tt1 
+    
+
+    These are all the values for htmlTufte63 v1 .dtpl
+
+lang            en
+settingsAuthor  Author of Settings
+date            2020-09-18
+keywords        Events
+page-title  missing todo 
+image           
+imageCaption    
+siteBanner      /resources/theme/templates/img/DSC04809.JPG
+siteBannerCaption   Ruhiger Sommer im Garten in Geras
+sitename        siteName3
+sitebyline      siteByLine3
+menuitems        
+                    ReadMe/index.html
+                    ReadMe
+                     
+                    SSGdesign/index.html
+                    Rationale
+                     
+                    Contact/index.html
+                    Contact
+                     
+                    Blog/index.html
+                    Blog
+                     
+                    PublicationList/index.html
+                    Publications
+                    
+title           Events recently attended
+subtitle         
+author          AOS
+table of contents   
+abstract        An example of another top-level subdivision, but currently not included
+in the ribbon under the banner.
+linkpdf         
+date   
+content         <p>The list is currently empty, entries would be listed <q>newest
+first</q>.</p>
+menu2files       
+menu2subdir     
+
+dainoversion    Version {versionBranch = [0,1,5,6,3], versionTags = []}
+visibility      public
+version         publish
+
+-- not in thmlTufte
+
+latLanguage     english
+styleBiber      authoryear
+mdFile          /home/frank/Workspace11/dainoSite/Event/index.md
+localhostPort   3000
+settingsDate    2019-01-01
+siteLayout      /home/frank/bakedTestSite/
+blogAuthorToSuppress 
+                                        AOS
+                                        AUF
+                                        Author of Settings
+                
+indexEntryDirectories 
+    
+indexEntryFiles 
+                            
+masterTemplateFile  htmlTufte63.dtpl
+texTemplateFile     latexTufte63.dtpl
+themeDir            /home/frank/Workspace11/u4blog/uniform-pandoc/theme/
+
+Bibliography        resources/BibTexLatex.bib  
+                    
+headerShitft        true
+
+-- for tufte latex
+book                
+pdf2                 Event/index.pdf 
+bookBig             false
+booklet             false
+bookprint
+bakedDir~webroot    /home/frank/Workspace11/dainoSite/
+
+
+-- end list of values extractable from template
+
+convertAny runErr2Action convPanrep2html 
+	 needs found []
+readMarkdownFile2docrep fnin /home/frank/Workspace11/dainoSite/index.md
+
+convertAny runErr2Action convMD2docrep 
+	 needs found []
+
+convertAny runErr2Action convDocrep2panrep 
+	 needs found ["/home/frank/Workspace11/dainoSite/Event/index.md","/home/frank/Workspace11/dainoSite/ReadMe/index.md"]
+panrep2html valsDirs [ Just
+    IndexEntry2
+      { ixfn = "/home/frank/Workspace11/dainoSite/Event/index.md"
+      , link = "Event/index"
+      , title = "Events recently attended"
+      , abstract =
+          "An example of another top-level subdivision, but currently not included\nin the ribbon under the banner."
+      , author = ""
+      , date = "2020-09-18"
+      , content = ""
+      , visibility = "public"
+      , version = "publish"
+      , sortOrder = ""
+      , pdf1 = "/home/frank/bakedTestSite/Event/index.pdf"
+      , headerShift = 0
+      }
+, Just
+    IndexEntry2
+      { ixfn = "/home/frank/Workspace11/dainoSite/ReadMe/index.md"
+      , link = "ReadMe/index"
+      , title = "ix-Title of Book <q>ReadMe/index.md</q>"
+      , abstract =
+          "ix-Abstract <em>of</em> Book should have 02alltext and 03tree"
+      , author = ""
+      , date = "2023-03-31"
+      , content = ""
+      , visibility = "public"
+      , version = "publish"
+      , sortOrder = ""
+      , pdf1 = "/home/frank/bakedTestSite/ReadMe/index.pdf"
+      , headerShift = 0
+      }
+]
+panrep2html valsFiles []
+panrep2html extra5 DainoValues
+  { mdFile = "/home/frank/Workspace11/dainoSite/index.md"
+  , mdRelPath = "index.md"
+  , dirEntries =
+      [ IndexEntry2
+          { ixfn = "/home/frank/Workspace11/dainoSite/Event/index.md"
+          , link = "Event/index"
+          , title = "Events recently attended"
+          , abstract =
+              "An example of another top-level subdivision, but currently not included\nin the ribbon under the banner."
+          , author = ""
+          , date = "2020-09-18"
+          , content = ""
+          , visibility = "public"
+          , version = "publish"
+          , sortOrder = ""
+          , pdf1 = "/home/frank/bakedTestSite/Event/index.pdf"
+          , headerShift = 0
+          }
+      , IndexEntry2
+          { ixfn = "/home/frank/Workspace11/dainoSite/ReadMe/index.md"
+          , link = "ReadMe/index"
+          , title = "ix-Title of Book <q>ReadMe/index.md</q>"
+          , abstract =
+              "ix-Abstract <em>of</em> Book should have 02alltext and 03tree"
+          , author = ""
+          , date = "2023-03-31"
+          , content = ""
+          , visibility = "public"
+          , version = "publish"
+          , sortOrder = ""
+          , pdf1 = "/home/frank/bakedTestSite/ReadMe/index.pdf"
+          , headerShift = 0
+          }
+      ]
+  , fileEntries = []
+  , dainoVersion =
+      "Version {versionBranch = [0,1,5,6,3], versionTags = []}"
+  , latLanguage = "english"
+  , authorReduced = ""
+  , bookBig = False
+  , booklet = False
+  , bookprint = False
+  , webroot = "/home/frank/Workspace11/dainoSite/"
+  , pdf2 = "index.pdf"
+  }
+panrep2html render testTemplate done tt1 
+    
+
+    These are all the values for htmlTufte63 v1 .dtpl
+
+lang            en
+settingsAuthor  Author of Settings
+date            2010-01-29
+keywords        homepage
+page-title  missing todo 
+image           
+imageCaption    
+siteBanner      /resources/theme/templates/img/DSC04809.JPG
+siteBannerCaption   Ruhiger Sommer im Garten in Geras
+sitename        siteName3
+sitebyline      siteByLine3
+menuitems        
+                    ReadMe/index.html
+                    ReadMe
+                     
+                    SSGdesign/index.html
+                    Rationale
+                     
+                    Contact/index.html
+                    Contact
+                     
+                    Blog/index.html
+                    Blog
+                     
+                    PublicationList/index.html
+                    Publications
+                    
+title           Static Site Generator Daino: Landing page
+subtitle         
+author          Author of Settings
+table of contents   
+abstract        The <code>Example Homepage</code> produced by <code>daino</code> lists
+differences to other SSG and gives the rationale for its design.
+<code>Daino</code> is built the Unix-style from existing tools. The site
+explains how to use it to run your own web site.
+linkpdf         
+date   
+content         <h1 id="demo-62--daino-a-static-site-generator">DEMO 6.2 – Daino: A
+Static Site Generator</h1>
+<!-- copy of the ReadMe.md file shown in github -->
+<!-- A static site generator designed by an academic to allow: 
+
+- web pages written as (Pandoc) markdown (with YAML header for title and `bibtex` references, etc.),
+- page layout inspired by Tufte and using `w3c` framework to adapt to different screen sizes,
+- publication list for download produced from `bibtex` database,
+- offer printable `pdf` files for all content; for some directories compilation from multiple pages on a single *booklet* page,
+- web site using multiple languages, with support for common shortcuts for typing (e.g. ae is changed to ä when acceptable)
+- content and appearances (theme) separated,
+- a single `yaml` file for setup, and 
+- a self-contained result which can be hosted on any web server.
+
+The program runs on Debian Linux^[Could run on Ubuntu or likely Windows(probably some adaptations needed).] locally on a PC or Raspery Pi 4.
+
+Restricted accsss on some directories is achieved using the server^[My provider uses `cpanel` and allows password protection to any directory.].
+
+## Software reuse:
+Daino uses  `pandoc` and other packages on `Hackage` (e.g. shake, twitch, scotty)^[It was influenced by Chris Penner's [slick](https://github.com/ChrisPenner/slick#readme), newer, and seemingly simpler is [`Ema`](`https://github.com/srid/ema`) by  Sridhar Ratnakumar, but the documentation did not detail its features neither how it is built.].
+
+It relies on `git` for version management and Debian Linux.
+
+## Example site
+The example site [shown here](daino.gerastree.at) contains more information how to build a site with `daino`.
+
+`Daino` can be installed from hackage or downloaded or cloned  from `git clone https://github.com/andrewufrank/daino.git` and installed with `cabal install` or `stack install`^[Initial compilation and linking brings in a large number of packages, e.g. Pandoc, and may take a while; on a typically AMD computer 30..60 Minutes, on a ARM64 (e.g. RaspberryPi4) twice as long for the initial installation.].
+
+The example site can be downloaded or cloned   from `github` with `git clone https://github.com/andrewufrank/dainoSite.git`. In the `settings3.yaml` file replace `/home/frank/dainoTest_1_5_2` three times with the path to the directory which contains the test site.
+
+To run the test site, start daino in this directory with  `daino -qs`  and render the result in a browser by opening `localhost:3000`. The web pages written in markdown can be edited and the server restarted to update the site.^[Producing the pdf files as well with `daino -s` may produce some messages pointing to the latex logs; can usually be ignored.]
+
+## Running your own site
+Copying the the test site to a suitable directory and edit the   
+`settinsNN.yaml`^[Currently `settings3.yaml`] 
+file found there is enough to start your own site with running `daino -qs` in this directory. 
+
+Delete the `.git` directory in the copy and restart git with `git init` to obtain version management for your site.
+
+# More information: 
+
+The `ReadMe` in the test site  explain the rationale for "yet another static site generator" and show with examples how it can be used. The Blog directory contains instructive examples of specific uses and serves as test pages to check processing. -->
+menu2files       
+menu2subdir      
+
+    link            Event/index
+    title           Events recently attended 
+    abstract        An example of another top-level subdivision, but currently not included
+in the ribbon under the banner. 
+                 
+
+    link            ReadMe/index
+    title           ix-Title of Book <q>ReadMe/index.md</q> 
+    abstract        ix-Abstract <em>of</em> Book should have 02alltext and 03tree 
+                
+
+dainoversion    Version {versionBranch = [0,1,5,6,3], versionTags = []}
+visibility      public
+version         publish
+
+-- not in thmlTufte
+
+latLanguage     english
+styleBiber      authoryear
+mdFile          /home/frank/Workspace11/dainoSite/index.md
+localhostPort   3000
+settingsDate    2019-01-01
+siteLayout      /home/frank/bakedTestSite/
+blogAuthorToSuppress 
+                                        AOS
+                                        AUF
+                                        Author of Settings
+                
+indexEntryDirectories 
+                true
+                true
+    
+indexEntryFiles 
+                            
+masterTemplateFile  htmlTufte63.dtpl
+texTemplateFile     latexTufte63.dtpl
+themeDir            /home/frank/Workspace11/u4blog/uniform-pandoc/theme/
+
+Bibliography        resources/BibTexLatex.bib  
+                    
+headerShitft        true
+
+-- for tufte latex
+book                
+pdf2                 index.pdf 
+bookBig             false
+booklet             false
+bookprint
+bakedDir~webroot    /home/frank/Workspace11/dainoSite/
+
+
+-- end list of values extractable from template
+
+convertAny runErr2Action convPanrep2html 
+	 needs found ["/home/frank/bakedTestSite/Event/index.panrep","/home/frank/bakedTestSite/ReadMe/index.panrep"]
+
+------------------ main daino constructing a static site generator 
+ Version {versionBranch = [0,1,5,6,3], versionTags = []} 
+returning Error when running Shake build system:
+  at want, called at src/ShakeBake/Shake2.hs:158:5 in daino-0.1.5.6.3-85e610592035bd3d2f11c6b7aea5e0a21535fa3ff3614d8cd3ee781ac6415fb1:ShakeBake.Shake2
+* Depends on: allMarkdownConversion
+  at need, called at src/Uniform/Shake/Path.hs:26:9 in uniform-shake-0.1.5.2-7a4e3021eebc1239b396163a8f636d1e89f35ff32be15b03d67425178ffb9a09:Uniform.Shake.Path
+* Depends on: /home/frank/bakedTestSite/ReadMe/index.html
+* Raised the exception:
+user error (runErr2action /home/frank/bakedTestSite/ReadMe/05pandoc.panrep: openFile: does not exist (No such file or directory))
+ 
+

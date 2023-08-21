@@ -18,7 +18,7 @@ bibliography: resources/BibTexLatex.bib
 book: "booklet"
 bibliography: "resources/BibTexLatex.bib"
 keywords: test
-version: publish
+version: private  # publish
 # visibility: public
 ---
 
