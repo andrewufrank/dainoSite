@@ -1,12 +1,12 @@
 ---
 title: Primary index for Blog
 abstract:  |
-    The web pages test specific aspects of web page construction, for example 
+    The web pages test specific aspects of web page construction, for example  
 
     - references,
     - images.
 
-    The directory for experiments.
+    The blog directory collects files to test most features of `daino`.
 
 # author: AOS
 date: Jan. 4, 2019
@@ -16,9 +16,8 @@ indexSort: filename
 bibliography: resources/BibTexLatex.bib
 # an index needs a biblio entry to cover included mds
 book: "booklet"
-bibliography: "resources/BibTexLatex.bib"
 keywords: test
-version: private  # publish
+version:  publish #  private  #
 # visibility: public
 ---
 

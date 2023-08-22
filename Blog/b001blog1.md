@@ -1,5 +1,5 @@
 ---
-title: The "01blog1"  example of levels of titles  
+title: levels of titles  
 abstract: An example blog title and a long, multi-line abstract   
     without fixed line breaks and footnotess  
 # author: AOS

@@ -17,6 +17,8 @@ abstract:
 
     But must not be include colons and the whole not in quotes. 
 
+    The better solution is with using `|` see b030title.md
+
 # author: AOS
 date: 2020-06-18
 # keywords: Blog

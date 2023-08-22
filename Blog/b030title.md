@@ -1,11 +1,13 @@
 ---
-title: "030: title and abstract with newline"
-abstract: 
-    Ein Blog ohne Sinn auf Deutsch
+title: 
+    titleb030title.md  *02alltext* with two space to break  
+    here. Issue - inserts `<p>` before the text with the 
+    break, which then overwrites the text size in tufte.
 
-
-    NL mit einenm Doppelpunkt im Titel (innerhalb Anführungszeichen)
-
+abstract: |
+    abstract02 missing with two spaces  
+    here in two lines  
+    NL mit einenm Doppelpunkt im Titel (innerhalb Anführungszeichen)  
 
     NL und mit einem ä im Abstract
 
@@ -19,7 +21,14 @@ abstract:
     = zwei 
     
 
-    endeabstract
+    ende abstract
+
+    alternativ
+
+    - eins
+    - zwei
+
+    mit liste
 
 author: Peter Beispiel
 date: 2020-06-18
