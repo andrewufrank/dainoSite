@@ -1,11 +1,11 @@
 ---
 abstract: 
     a  block text title
-    two spaces forced beak      
+    two spaces forced break      
     here or with backslash\
     here
-title: ! 
-    a literal folded block text two spaces forced    
+ title: ! 
+    a literal folded block text two spaces forced break   
     here and  with backslash\
     here
 
