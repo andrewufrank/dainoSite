@@ -1,5 +1,5 @@
 ---
-title: "Static Site Generator Daino: Landing page" 
+title: "Test1 -- Static Site Generator Daino: Landing page" 
 abstract: The `Example Homepage` 
     produced by `daino` lists differences to other SSG and gives the rationale for its design. `Daino` is built the Unix-style from existing tools. The site explains how to use it to run your own web site.
 author: Author of Settings
