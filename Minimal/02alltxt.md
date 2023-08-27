@@ -4,7 +4,7 @@ title: |
     here continued
 
     in two paragraphs, with two slashes//
-    and backslapsh\ 
+    and backslash\ 
     not having effect.
 abstract: >
     abstract02 missing with two spaces  
