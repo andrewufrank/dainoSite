@@ -10,6 +10,6 @@ version: publish
 # visibility: public
 ---
 
-#  DEMO 6.2 -- Daino: A Static Site Generator 
-< 
-The program runs
+#  DEMO 6.1 -- Daino: 
+
+The program runs.

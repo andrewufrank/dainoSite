@@ -1,7 +1,7 @@
 ---
 title: 05title *missing* - set to private
 abstract: 05abstract missing
-version: private
+version: public
 date: 2023-03-31
 ---
  
