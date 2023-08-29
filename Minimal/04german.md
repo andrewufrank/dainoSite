@@ -4,7 +4,7 @@ abstract: "04abstract: In german."
 bibliography: resources/BibTexLatex.bib
 language: de_CH
 # reference-section-title: Reference
-version: publish
+version: draft # publish
 date: 2023-03-31
 ---
 

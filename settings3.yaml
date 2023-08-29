@@ -61,14 +61,14 @@ menuitems:
     menuNav:
      # navlink must not start with /
      # and should reference an index.html file (not .md)
-      # - navlink: ReadMe/index.html
-      #   navtext: ReadMe
-      # - navlink: DainoDesign/index.html
-      #   navtext: Rationale
-      # - navlink: Contact/index.html
-      #   navtext: Contact
-      # - navlink: Blog/index.html
-      #   navtext: Blog
+      - navlink: ReadMe/index.html
+        navtext: ReadMe
+      - navlink: DainoDesign/index.html
+        navtext: Rationale
+      - navlink: Contact/index.html
+        navtext: Contact
+      - navlink: Blog/index.html
+        navtext: Blog
       - navlink: Minimal/index.html
         navtext: Minimal
       # - navlink : PublicationList/index.html
