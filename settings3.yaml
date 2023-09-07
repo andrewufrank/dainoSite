@@ -2,7 +2,8 @@
 # change to start a new site
 
 siteLayout:
-    themeDir:  /home/frank/Workspace11/u4blog/uniform-pandoc/theme
+    themeDir: /home/frank/Workspace11/daino/theme
+    # /home/frank/Workspace11/u4blog/uniform-pandoc/theme
     # was -- /home/frank/Workspace11/dainoTheme
     # must be dir (not including templates)
     # used to place a link to theme in dough/resources
