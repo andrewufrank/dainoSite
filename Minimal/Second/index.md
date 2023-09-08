@@ -1,5 +1,5 @@
 ---
-title: Second Folder
+title: __Second__ Folder
 abstract: ix-Abstract _of_ Book should have 02alltext and 03tree
 bibliography: "resources/BibTexLatex.bib"
 keywords: exampleKeyword  
@@ -9,4 +9,5 @@ date: 2023-03-31
 ---
 
 # Second Folder
-Initially empty.
+
+__Initially__ empty.
