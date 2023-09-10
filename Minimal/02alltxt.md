@@ -1,8 +1,6 @@
 ---
 title: 
-    title02 **02alltext bold** with two space to break  
-    here continued
-
+    title02 **02alltext bold** <br> broken 
 abstract: >
     abstract02 missing with two spaces  
     here not  in two lines

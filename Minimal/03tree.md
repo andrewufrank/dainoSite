@@ -1,6 +1,6 @@
 ---
-title:  03title **with** ref
-abstract: "03abstract: The web pages are   structured as a tree." 
+title:  03title **with** ref /lf/ second line of title
+abstract: '"03abstract: The web pages are /lf/   structured as a tree."' 
 bibliography: resources/BibTexLatex.bib
 reference-section-title: Reference
 version: publish
