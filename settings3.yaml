@@ -15,7 +15,7 @@ siteLayout:
     # masterTemplateFile: master6.dtpl  #in themeDir
     masterTemplateFile:  tufte633html.dtpl
       # htmlTufte633.dtpl  #in themeDir
-    texTemplateFile:  tufte633latex.dtpl
+    texTemplateFile:    tufte64latex.dtpl
       # latexTufte63.dtpl
     # texTemplateFile: latex7.dtpl # for non-tufte layout 
          # (footnotes at bottom of page)
