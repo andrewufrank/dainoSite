@@ -1,5 +1,5 @@
 ---
-title: Primary index for Blog
+title: Primary index for Blog (Booklet level 1)
 abstract:  |
     The web pages test specific aspects of web page construction, for example  
 

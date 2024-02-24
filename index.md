@@ -1,6 +1,6 @@
 ---
-title: "Test1 --  Daino: " 
-abstract: The `Example Homepage` 
+title: "Test1 --  Daino: `Top Level 0` " 
+abstract: The **Example Homepage** 
  
 author: Author of Settings
 date: 2010-01-29
@@ -10,6 +10,6 @@ version: publish
 # visibility: public
 ---
 
-#  DEMO 6.1 -- Daino: 
+# DEMO 6.1 -- Daino
 
-The program runs.
+The program produces output.

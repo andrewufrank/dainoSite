@@ -13,7 +13,7 @@ version: publish
 # doNotReplace: "ae" "oe" "ue" 
 ---
 
-In the `yaml header` of a markdown file the language must be specified if not U.S. english (marked as `en_US). I use often `de_CH` for the Swiss variants of german.
+In the `yaml header` of a markdown file the language must be specified if not U.S. english (marked as `en_US`). I use often `de_CH` for the Swiss variants of german.
 
 Various conventions to type text in non-english languages exist. For example, it is customary to type combinations of American keyboard characters to stand in for those which are not found on the standard American keyboard.
 For example, when typing a German text, often the umlaut ä, ö and ü are written as "ae", "oe" and "ue". Unfortunately, it is not possible to just use a global replace, because some German words contain some such combinations (e.g. Koeffizienten) which must not be written as Köffizienten!

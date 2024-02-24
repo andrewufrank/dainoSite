@@ -26,10 +26,10 @@ references:
 # styleBiber: numeric
 reference-section-title: References
 
-version: private # publish
+version: draft # publish
 # issue with lualatex: Not writing to .bib (openout_any = p).
 
-# # visibility: public
+visibility: private
 # headerShift: zero
 ---
 

@@ -1,12 +1,12 @@
 ---
 title:
-    titleb030title.md *02alltext* with two space to break
-    here. Issü - inserts `<p>` before the text with the
-    break, which then overwrites the text size in tufte.
+    titleb030title.md 03titleBroken with /lf/ to break. breaks index
+abstract: |    
+    Issue was that  literal block as title inserts `<p>` before the text with the
+    break, which then overwrites the text size in tufte. 
 
-abstract: |
-    abstract02 missing with two spaces
-    here in two lines
+    breaking with   two spaces  
+    here which do not break in two lines
     NL mit einenm Doppelpunkt im Titel (innerhalb Anführungszeichen)
 
     NL und mit einem ä im Abstract
@@ -39,7 +39,7 @@ version: publish
 # headerShift: one
 bibliography: resources/BibTexLatex.bib
 # reference-section-title: Literatur
-doNotReplace: blue true koeffizient einbauen "ä" "ö" "ü"
+doNotReplace: blue true koeffizient einbauen "ä" "ö" "ü" issue
 ---
 
 # Title must have " to include :

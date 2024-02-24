@@ -1,11 +1,11 @@
 ---
 abstract: 
-    a  block text title
+    a  example not working for a block text title
     two spaces forced break      
     here or with backslash\
     here
- title: ! 
-    a literal folded block text two spaces forced break   
+title: ! 
+    another not working example literal folded block text two spaces forced break   
     here and  with backslash\
     here
 

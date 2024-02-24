@@ -10,8 +10,8 @@ siteLayout:
     reportFile: /home/frank/dainoReport.txt
     testDir: /home/frank/.daino 
     # masterTemplateFile: master6.dtpl  #in themeDir
-    masterTemplateFile: master7tufte.dtpl  #in themeDir
-    texTemplateFile: latex8.dtpl
+    # masterTemplateFile: master7tufte.dtpl  #in themeDir
+    # texTemplateFile: latex8.dtpl
     # change is global for the site, not per page TODO?
     doNotBake: "DNB"
     # todo seems not to work. but entry here is required

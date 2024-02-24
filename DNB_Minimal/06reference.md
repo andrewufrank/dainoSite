@@ -1,5 +1,5 @@
 ---
-title:  06title **with bold** and not a second line of title
+title:  06withRef **with bold** and not a second line of title
 abstract: "06abstract: The web pages are /lf/   structured as a tree." 
 bibliography: resources/BibTexLatex.bib
 # csl: resources/theme/templates/chicago-fullnote-bibliography.csl
@@ -8,6 +8,8 @@ reference-section-title: Reference
 # notes: sidenotes
 version: publish  
 date: 2023-03-31
+documentclass: article
+csl-refs: True
 ---
 
 # 06-hl1 title **for** 03

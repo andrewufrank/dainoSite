@@ -1,7 +1,7 @@
 ---
-title:  03title **with** ref /lf/ second line of title
+title:  03title **with**   /lf/ second line of title
 abstract: '"03abstract: The web pages are /lf/   structured as a tree."' 
-version:  draft # publish the /lf/ causes trouble with latex
+version:  private # publish # the /lf/ causes trouble with latex and tufte
 date: 2023-03-31
  
 ---

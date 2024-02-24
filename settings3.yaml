@@ -1,27 +1,23 @@
 # settings3.yaml -- the basic setup of the test site
-# change to start a new site
+# v0.1.6.6 tufte64_26latex - both column close to same size
+# requiores af_tufte_common.def and af_tufte.cls in ~/texfm/latex/ 
+# run texhas!
 
 siteLayout:
     themeDir: /home/frank/Workspace11/daino/theme
-    # /home/frank/Workspace11/u4blog/uniform-pandoc/theme
-    # was -- /home/frank/Workspace11/dainoTheme
     # must be dir (not including templates)
     # used to place a link to theme in dough/resources
     doughDir: /home/frank/Workspace11/dainoSite 
     bakedDir: /home/frank/bakedTestSite
-    # bakedDir: /home/frank/Workspace11/daino/docs/site/baked
     reportFile: /home/frank/dainoReport.txt
     testDir: /home/frank/.daino 
-    # masterTemplateFile: master6.dtpl  #in themeDir
-    masterTemplateFile:  tufte64html.dtpl
-      # htmlTufte633.dtpl  #in themeDir
-    texTemplateFile:    tufte64latex.dtpl
-      # latexTufte63.dtpl
-    # texTemplateFile: latex7.dtpl # for non-tufte layout 
+    htmlTemplateFile: pandoc64html.dtpl  # from default.html5
+    latexTemplateFile: pandoc64latex.dtpl  # from default319latex
          # (footnotes at bottom of page)
-    # change is global for the site, not per page TODO?
+    tufteHtmlTemplateFile:  tufte64html.dtpl
+    # tufteLatexTemplateFile: tufte64latdirex.dtpl
+    tufteLatexTemplateFile: tufte64_26latex.dtpl #fuer WO buch
     doNotBake: "DNB"
-    # todo seems not to work. but entry here is required
     blogAuthorToSuppress: 
       - "AOS"
       - "AUF"
@@ -30,17 +26,11 @@ siteLayout:
     replaceErlaubtFile: "/home/frank/Workspace11/replaceUmlaut/nichtUmlaute.txt"
     # the file with permitte words not to replace
     # defaultBibliography: "resources/BibTexLatex.bib"
-    # todo the bibliography is not defaulted because the value must be read by pandoc
-
-    # create dir in ExampleTesting
-    # filename must be homedir + program name (in Foundation) - hidden
-    # fixed in testharness
-#    uploadServer: "sgg.gerastree.at"
+    # todo the bibliography is not defaulted because the value must be read by pandoc when a booklet is produced independent of daino processing
 
 # add a default biblio file? resources/BibTexLatex.bib
     
-    # needs link in resources/templates to themes/templates
-localhostPort: 3000
+localhostPort: 3003
 
 #quotes: True 
 # css :
@@ -74,6 +64,10 @@ menuitems:
         navtext: Blog
       - navlink: Minimal/index.html
         navtext: Minimal
+      - navlink: BookletExample/index.html
+        navtext: BookletExample
+      - navlink: BookExample/index.html
+        navtext: BookExample
       # - navlink : PublicationList/index.html
       #   navtext : Publications
       # - navlink : dainodesign/index.html
