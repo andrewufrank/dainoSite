@@ -15,7 +15,7 @@ date: Jan. 4, 2019
 indexSort: filename
 bibliography: resources/BibTexLatex.bib
 # an index needs a biblio entry to cover included mds
-book: "booklet"
+book: "bookbig"   # "booklet" does not include text
 keywords: test
 version:  publish #  private  #
 # visibility: public

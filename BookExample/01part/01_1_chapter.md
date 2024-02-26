@@ -9,19 +9,19 @@ version:  publish #  private  #
 
 # book Example - one hash: level  3  part 1 chapter 1 section 1 - one hash
 
-text: \uselengthunit{mm}\printlength{\textwidth}; margin:\uselengthunit{mm}\printlength{\marginparwidth}; 
+to print the layout in columns of the given size: 
 
-%left: \uselengthunit{mm}\printlength{\left}; right:\uselengthunit{mm}\printlength{\right};
 
-text hoehe: \uselengthunit{mm}\printlength{\textheight}
 
 Der Ausbruch des Krieges hat mich und viele andere überrascht; für viele ist eine konventioneller Krieg in Europa unvorstellbar geworden. Umso grösser die Bestürzung.
 
+reference to the link122: [link122](#p1ch2s2)
 Die Zunehmende Ungleichverteilung von Einkommen und Kapital in Europa beunruhigt mich seit langem; der Angriff Russlands auf die Ukraine hat mich veranlasst über die *Weltordnung* nachzudenken und zu überlegen, ob jetzt die Epoche der *Globalisierung* zu Ende ginge? ^[Überlegungen, was sich gegenwärtig ändert und in welcher Richtung sind populär.[@harari15sapiens]]
 
 <!-- [@häring; @harari].] -->
 
 # Fokus CCCBDDDEEEFFFGGG
+## focus2 \label{focus2label}
 
 Mein Fokus liegt auf der Finanz- und Wirtschaftspolitik ^[und nicht auf der Klimaveränderung, weil ich annehme, dass die Folgen der Klimaveränderung langsamer auf die Gesellschaft wirken als diejenigen der Finanz- und Wirtschaftspolitik]. Meine Überlegungen unterscheiden sich zumindest in *drei* Punkten von andern:
 
