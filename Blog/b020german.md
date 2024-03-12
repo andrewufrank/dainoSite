@@ -19,7 +19,7 @@ bibliography: resources/BibTexLatex.bib
 doNotReplace: blue true koeffizient einbauen "ä" "ö" "ü"
 ---
 
-# 01blog1 level1 Titel
+# 01blog1 level1 Titel v678
 Ein Blog ohne Sinn und dem einzigen Zweck, zu testen, wie ein Blog in deutscher Sprache dargestellt wird.
 
 Hier wird der Titel für die Literaturliste deutsch (nicht dänisch) gesetzt!
