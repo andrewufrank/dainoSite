@@ -13,7 +13,7 @@ version: publish
 # headerShift: one
 ---
 
-# level1 Titel
+# level1 Titel v3
 Some nonsense text under level 1^[Technically, it will be rendered as level 2 title, given that the title is level1.]
 
 A title must not be included in *"* or *'*, otherwise the production of pdf files does not work.^[Problem with the `\section` tex command.]
