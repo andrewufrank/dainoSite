@@ -55,6 +55,6 @@ This title must^[footnote test to check interaction]not interfere with footnote 
 
 # footnotes
 
-The commonmark style is [^one] but not allowing inline footnote, which are convenient^[a second short footnote inline] and are easier to write - but partially more disturbing when revising a document.
+The commonmark style is[^one] but not allowing inline footnote, which are convenient^[a second short footnote inline] and are easier to write - but partially more disturbing when revising a document.
 
-The current version `daino68` is again using Pandoc markdown; `daino67` was the experiment with commonmark. 
+The current version `daino68` is again using Pandoc markdown; some `daino67` were the experiment with commonmark. 

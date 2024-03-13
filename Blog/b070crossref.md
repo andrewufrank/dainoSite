@@ -42,6 +42,8 @@ wrong markers understand the text as a file and fail to find it:
 
 # A reference to another file
 
+issue: the reference points to the html or the pdf (and not to the html in html and pdf in pdf!)
+
 Requires for HTML a full file name plus the marker within the text:
 
     [html chapter1 focus2](/BookExample/01part/01_1_chapter.html#focus2)
@@ -50,9 +52,9 @@ and see for html [html chapter1 focus2](/BookExample/01part/01_1_chapter.html#fo
 
 Unfortunately, latex sees this and produces `\href{/BookExample/01part/01_1_chapter.html\#focus2}{html chapter1 focus2}` which points to the html and not the pdf output. If no extension is set, then pandoc completes with  `pdf`. But then, pandoc when producing the html does not correspond. 
 
-for latex: and see for html [html chapter1 focus2](/BookExample/01part/01_1_chapter#focus2) points in the pdf to another pdf file.
+for latex: and see for html [html chapter1 focus2](/BookExample/01part/01_1_chapter#focus2) points in the pdf to another pdf file. (but not in html)
 
-with the extension, points in html to the pdf file and see for html [html chapter1 focus2](/BookExample/01part/01_1_chapter.pdf#focus2)
+works for pdf and html (to point to pdf file, not a particular position in the file) with the extension, points in html to the pdf file and see for html [html chapter1 focus2](/BookExample/01part/01_1_chapter.pdf#focus2)
 
 
 # Referencing in books and booklets PDDF

@@ -1,8 +1,7 @@
 ---
-title:   051withImage  
+title:   051withBanner  
 abstract: > 
-    How to include an image in a blog; 
-    references can be absolute or relative
+    How to include an image as a banner
 author: Bill Tames
 caption: Tal bei Obertauern
 date: Jan. 4, 2019
@@ -12,7 +11,7 @@ version: publish
 # visibility: public
 ---
 
-# Images in the banner
+# Images in the banner v2
 
 An arbitrary image can be inserted in the banner page, as an absolute (possibly relative) reference after the keyword `image:` in the header. The size of the image is scaled to the hight of the banner^[Images which are wide and not high work well, e.g. 1000 by 330 pixel work well.].
 

@@ -37,7 +37,7 @@ Not to break titles into lines is a limitation of latex:
 
 [https://tex.stackexchange.com/questions/43431/how-to-make-force-line-break-in-chapter-title-in-toc-chapter-header-if-p]
 
-    The standard class page headers are really only set up for one line. If doing it a lot you should modify the page headers to set the mark text into a parbox, but for a one-off long entry you can put the parbox into the mark. So this breaks all three instances:
+    >The standard class page headers are really only set up for one line. If doing it a lot you should modify the page headers to set the mark text into a parbox, but for a one-off long entry you can put the parbox into the mark. So this breaks all three instances:
 
     \chapter[medium-length\\ title for TOC, if wanted]{full\\ title name}
     \chaptermark{\protect\parbox{.5\textwidth}{short title\\ for running headers}}

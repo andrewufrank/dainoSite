@@ -14,10 +14,15 @@ version: publish
 # visibility: public
 ---
 
-todo check how to insert linebreaks
+Only the 3rd example works for both pdf and html. 
+
+## working: 
+
+test 3rd image ![relative 3IMG]( resources/3IMG.JPG):   `resources/3IMG.JPG` is  relative reference to position of .md file. shown in HTML but not in PDF . 
  
+## not working for pdf AND html: 
+
 The 1st image ![example absolute reference - error in PDF, shown in HTML](/Blog/resources/1IMG.JPG)  is referenced absolutely with `/Blog/resources/1IMG.JPG`, and produces for `makePDF` an error  but the same ref is shown in HTML (understood as absolute reference relative to web root )  
 
 test 2nd imgage ![2IMG ](Blog/resources/2IMG.JPG): `Blog/resources/2IMG.JPG` is incorrect relative reference and therefore not shown in HTML, but shown in PDF - interpreted relative to cwd . 
 
-test 3rd image ![relative 3IMG]( resources/3IMG.JPG):   `resources/3IMG.JPG` is  relative reference to position of .md file. shown in HTML but not in PDF . 
