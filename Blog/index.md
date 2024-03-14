@@ -21,7 +21,7 @@ version:  publish #  private  #
 # visibility: public
 ---
 
-# The Blog directory gives example for web page design v2
+# The Blog directory gives example for web page design v3
 
 Each page shows a particular aspect of the design of a web page:
 

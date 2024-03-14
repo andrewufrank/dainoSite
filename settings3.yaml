@@ -16,7 +16,7 @@ siteLayout:
          # (footnotes at bottom of page)
     tufteHtmlTemplateFile:  tufte64html.dtpl
     # tufteLatexTemplateFile: tufte64latdirex.dtpl
-    tufteLatexTemplateFile: tufte6426latex.dtpl #fuer WO buch
+    tufteLatexTemplateFile: aftufte6426latex.dtpl #fuer WO buch
     doNotBake: "DNB"
     blogAuthorToSuppress: 
       - "AOS"

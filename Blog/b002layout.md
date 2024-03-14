@@ -30,7 +30,7 @@ version: publish
 # headerShift: one
 ---
 
-Rules for the YAML header are strict. After the keyword follows a colon and then a text. This text MUST NOT contain a colon (":") or set in quotes (single or double).
+Rules for the YAML header are strict. After the keyword follows a colon and then a text. This text MUST NOT contain a colon (":") or set in quotes (single or double). \index{colon}
 
 To have a line break add two blanks   
 second line   

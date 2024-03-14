@@ -26,7 +26,7 @@ linebreaks in abstract can be simulated with /lf/ marks. Attention:
 spaces before necessary! but not in title.
 
 ## abstract wtih enumerations
-the better solution is the one in b001blog.md
+the better solution is the one in b001blog.md \index{enumeration}
 
 <!-- enumerations do not work in abstracts. simmulate with `=` (not `-`).
 
