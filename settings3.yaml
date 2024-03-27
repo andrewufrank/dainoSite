@@ -1,5 +1,5 @@
 # settings3.yaml -- the basic setup of the test site
-# v0.1.6.6 tufte64_26latex - both column close to same size
+# v0.1.6.7 tufte64_26latex167.dtpl - both column close to same size
 # requiores af_tufte_common.def and af_tufte.cls in ~/texfm/latex/ 
 # run texhas!
 
@@ -16,7 +16,7 @@ siteLayout:
          # (footnotes at bottom of page)
     tufteHtmlTemplateFile:  tufte64html.dtpl
     # tufteLatexTemplateFile: tufte64latdirex.dtpl
-    tufteLatexTemplateFile: aftufte6426latex.dtpl #fuer WO buch
+    tufteLatexTemplateFile: aftufte6426latex167.dtpl #fuer WO buch
     doNotBake: "DNB"
     blogAuthorToSuppress: 
       - "AOS"
