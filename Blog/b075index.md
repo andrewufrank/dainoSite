@@ -10,7 +10,7 @@ version: publish
 
 # Collect an index v23
 
-At appropriate positions add `\index{key}`, for example \index{index1}. 
+At appropriate positions add `\index{key}`, for example `\index{index1}` \index{index1}. 
 
 ## Preparation 
 >To enable the indexing feature of LaTeX, the makeidx package must be loaded in the preamble with:
