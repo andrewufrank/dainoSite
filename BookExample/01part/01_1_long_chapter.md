@@ -5,6 +5,7 @@ date: 2023-10-15
 indexSort: filename
 keywords: test
 version:  publish #  private  #
+bibliography: resources/BibTexLatex.bib
 ---
 
 # book Example - one hash: level  3  part 1 chapter 1 section 1 - one hash
@@ -13,10 +14,10 @@ to print the layout in columns of the given size:
 
 
 
-Der Ausbruch des Krieges hat mich und viele andere überrascht; für viele ist eine konventioneller Krieg in Europa unvorstellbar geworden. Umso grösser die Bestürzung.
+Der Ausbruch des Krieges hat mich und viele andere überrascht; für viele ist eine konventioneller Krieg in Europa unvorstellbar geworden. Umso grösser die Bestürzung.\index{krieg}
 
 reference to the link122: [link122](#p1ch2s2)
-Die Zunehmende Ungleichverteilung von Einkommen und Kapital in Europa beunruhigt mich seit langem; der Angriff Russlands auf die Ukraine hat mich veranlasst über die *Weltordnung* nachzudenken und zu überlegen, ob jetzt die Epoche der *Globalisierung* zu Ende ginge? ^[Überlegungen, was sich gegenwärtig ändert und in welcher Richtung sind populär.^[@harari15sapiens]]
+Die Zunehmende Ungleichverteilung von Einkommen und Kapital in Europa beunruhigt mich seit langem; der Angriff Russlands auf die Ukraine hat mich veranlasst über die *Weltordnung* nachzudenken und zu überlegen, ob jetzt die Epoche der *Globalisierung* zu Ende ginge? ^[Überlegungen, was sich gegenwärtig ändert und in welcher Richtung sind populär.[@navratil08]]
 
 <!-- [@häring; @harari].] -->
 
@@ -25,7 +26,7 @@ Die Zunehmende Ungleichverteilung von Einkommen und Kapital in Europa beunruhigt
 
 Mein Fokus liegt auf der Finanz- und Wirtschaftspolitik ^[und nicht auf der Klimaveränderung, weil ich annehme, dass die Folgen der Klimaveränderung langsamer auf die Gesellschaft wirken als diejenigen der Finanz- und Wirtschaftspolitik]. Meine Überlegungen unterscheiden sich zumindest in *drei* Punkten von andern:
 
-1. Ich gehe davon aus, dass die **Entwicklung der Technik** --- im weitesten Sinn, der neben handwerklichen und industriellen Techniken auch soziale Institutionen als Technik einschliesst --- den Lauf der Geschichte bestimmt. Neue Technik entsteht durch die natürliche Neugierde des Menschen und verändert die Beurteilung von Werten; das beeinflusst Macht und Machtverteilung in der Welt und verändert damit die Weltordnung.
+1. Ich gehe davon aus, dass die **Entwicklung der Technik** --- im weitesten Sinn, der neben handwerklichen und industriellen Techniken auch soziale Institutionen als Technik einschliesst --- den Lauf der Geschichte bestimmt. Neue Technik entsteht durch die natürliche Neugierde des Menschen und verändert die Beurteilung von Werten; das beeinflusst Macht und Machtverteilung in der Welt und verändert damit die Weltordnung.\index{macht}
 
 2. Ich versuche die **Real- und Finanzpolitik** in einer Analyse der gegenwärtigen Situation (Teil 3) zu trennen und die dabei wirkenden **Mechanismen** zu beschreiben (Teil 6), wobei ich versuche, eine lokale Wirtschaft von der globalen zu trenne. Die Beobachtungen der Krisen der letzten Dekaden (Teil 4), die das gegenwärtige Ungleichgewicht anzeigen, helfen zu einer Skizze eines Modells der wirkenden Kräfte in der Weltwirtschaft und -politik (Teil 5).
 
@@ -33,7 +34,7 @@ Mein Fokus liegt auf der Finanz- und Wirtschaftspolitik ^[und nicht auf der Klim
 
 Dem stelle ich eine Vorstellung von Geschichte entgegen, bei der die Veränderungen durch technischen Fortschritt (im weitesten Sinne [^north]) getrieben werden, entgegen: Durch die menschliche Neugierde getrieben erfolgt eine Veränderung der Technologie.[^kaiser]
 
-[^north]: Ich verstehe hier Technologie im weitesten Sinn, umfassend Technik im landläufigen Sinne aber auch soziale Techniken und Institutionen, wie sie Douglas North darstellt[@North1981;@north2005understanding]
+[^north]: Ich verstehe hier Technologie im weitesten Sinn, umfassend Technik im landläufigen Sinne aber auch soziale Techniken und Institutionen, wie sie Douglas North darstellt [@berners2001semantic]
 
 [^kaiser]: Entscheidend für die Entwicklung sind für dieses Geschichtsverständnis nicht die Handlungen einzelner geschichtlicher Personen[Könige, Kaiser, Führer, Staatsmänner und Politiker], sondern die Entstehung neuer Technologien.
  
@@ -53,7 +54,7 @@ Die Politik muss **zwei Entscheidungen** treffen, die nicht rational argumentier
 - die **Geschwindigkeit mit der Veränderungen** in die Gesellschaft integriert werden.
 
 ## Politik muss Aufteilung des in der Gesellschaft geschaffenen Mehrwertes bestimmen
-Die wachsende Ungleichverteilung von Einkommen und vor allem Vermögen auf der Welt scheint mir sozial gefährlich; glücklicherweise hat diese Frage in der Öffentlichkeit schon Beachtung gefunden.^[Z.B. Mit dem Buch von Scheidel[@Scheidel2018].]
+Die wachsende Ungleichverteilung von Einkommen und vor allem Vermögen auf der Welt scheint mir sozial gefährlich; glücklicherweise hat diese Frage in der Öffentlichkeit schon Beachtung gefunden.^[Z.B. Mit dem Buch von Scheidel .]
 
 
 
