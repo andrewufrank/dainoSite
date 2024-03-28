@@ -6,6 +6,7 @@ indexSort: filename
 keywords: test
 version:  publish #  private  #
 bibliography: resources/BibTexLatex.bib
+# reference-section-title: Buecher
 ---
 
 # book Example - one hash: level  3  part 1 chapter 1 section 1 - one hash
@@ -21,7 +22,7 @@ Die Zunehmende Ungleichverteilung von Einkommen und Kapital in Europa beunruhigt
 
 <!-- [@häring; @harari].] -->
 
-# Fokus CCCBDDDEEEFFFGGG
+# Fokus CCCBDDDEEEFFFGGGv2345
 ## focus2 \label{focus2label}
 
 Mein Fokus liegt auf der Finanz- und Wirtschaftspolitik ^[und nicht auf der Klimaveränderung, weil ich annehme, dass die Folgen der Klimaveränderung langsamer auf die Gesellschaft wirken als diejenigen der Finanz- und Wirtschaftspolitik]. Meine Überlegungen unterscheiden sich zumindest in *drei* Punkten von andern:

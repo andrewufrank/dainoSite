@@ -5,8 +5,11 @@ date: 2023-10-15
 indexSort: filename
 keywords: test
 version:  publish #  private  #
+bibliography: resources/BibTexLatex.bib
+
 ---
 
 # book Example - one hash: level  3  part 3 chapter 1 section 1 - one hash
 
-page of 2.1.1
+v3 5
+page of 2.1.1 [@hamster11]
